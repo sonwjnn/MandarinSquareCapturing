@@ -15,3 +15,9 @@ C:\Users\kien2\Downloads\Game_OAQ\DTO\obj\Release\DTO.csproj.CoreCompileInputs.c
 C:\Users\kien2\Downloads\Game_OAQ\DTO\obj\Release\DTO.dll
 C:\Users\kien2\Downloads\Game_OAQ\DTO\obj\Release\DTO.pdb
 C:\Users\kien2\Downloads\Game_OAQ\DTO\obj\Release\DTO.csproj.AssemblyReference.cache
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\DTO\bin\Release\DTO.dll
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\DTO\bin\Release\DTO.pdb
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\DTO\obj\Release\DTO.csproj.AssemblyReference.cache
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\DTO\obj\Release\DTO.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\DTO\obj\Release\DTO.dll
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\DTO\obj\Release\DTO.pdb

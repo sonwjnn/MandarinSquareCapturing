@@ -130,3 +130,38 @@ C:\Users\Thanh Nam\Desktop\LTGD Project\Game_OAQ\GUI\obj\Release\GUI.csproj.Core
 C:\Users\Thanh Nam\Desktop\LTGD Project\Game_OAQ\GUI\obj\Release\GUI.csproj.CopyComplete
 C:\Users\Thanh Nam\Desktop\LTGD Project\Game_OAQ\GUI\obj\Release\GUI.exe
 C:\Users\Thanh Nam\Desktop\LTGD Project\Game_OAQ\GUI\obj\Release\GUI.pdb
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\bin\Release\GUI.exe.config
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\bin\Release\GUI.exe
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\bin\Release\GUI.pdb
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\bin\Release\BLL.dll
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\bin\Release\DTO.dll
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\bin\Release\DAL.dll
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\bin\Release\BLL.pdb
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\bin\Release\DTO.pdb
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\bin\Release\DAL.pdb
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\bin\Release\Interop.WMPLib.dll
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\bin\Release\AxInterop.WMPLib.dll
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.csproj.AssemblyReference.cache
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\Interop.WMPLib.dll
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\AxInterop.WMPLib.dll
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.csproj.ResolveComReference.cache
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.CharacterChoiceGUI.resources
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.HintGUI.resources
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.LogInGUI.resources
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.MainGameGUI.resources
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.MessageBoxes.OkMessageBox.resources
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.MessageBoxes.YesNoMessageBox.resources
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.Properties.Resources.resources
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.RankGUI.resources
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.Regist.RegistHelpGUI.resources
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.RegistGUI.resources
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.ResultGUI.resources
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.StartGUI.resources
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.Start.UserInformationGUI.resources
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.Start.VolumeInformationGUI.resources
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.VersusGUI.resources
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.csproj.GenerateResource.cache
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.csproj.CopyComplete
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.exe
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.pdb

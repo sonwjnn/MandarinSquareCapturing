@@ -25,3 +25,12 @@ C:\Users\kien2\Downloads\Game_OAQ\DAL\obj\Release\DAL.csproj.CoreCompileInputs.c
 C:\Users\kien2\Downloads\Game_OAQ\DAL\obj\Release\DAL.csproj.CopyComplete
 C:\Users\kien2\Downloads\Game_OAQ\DAL\obj\Release\DAL.dll
 C:\Users\kien2\Downloads\Game_OAQ\DAL\obj\Release\DAL.pdb
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\DAL\bin\Release\DAL.dll
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\DAL\bin\Release\DAL.pdb
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\DAL\bin\Release\DTO.dll
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\DAL\bin\Release\DTO.pdb
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\DAL\obj\Release\DAL.csproj.AssemblyReference.cache
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\DAL\obj\Release\DAL.csproj.CopyComplete
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\DAL\obj\Release\DAL.dll
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\DAL\obj\Release\DAL.pdb
