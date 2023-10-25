@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Drawing;
 using System.Windows.Forms;
-using System.Drawing;
 
 namespace GUI
 {
@@ -12,24 +7,35 @@ namespace GUI
     {
         public string PlaceHolder { get; set; }
         private int length = 0;
-        public CustomTextbox() => Text = PlaceHolder;
+
+
         //remove the placeholder text when player focus
         public void changePH_Enter()
         {
             if (Text.Equals(PlaceHolder))
             {
-                BackColor = Color.LightGreen;
+                BackColor = Color.White;
                 Text = string.Empty;
                 ForeColor = Color.Black;
             }
         }
 
-        //change placeholder text when mouse leave
+        //change placeholder text when mouse leaves
         public void changePH_Leave()
         {
             if (Text == string.Empty)
             {
                 BackColor = Color.White;
+                Text = PlaceHolder;
+                ForeColor = Color.LightGray;
+            }
+        }
+
+        public void changePH_Regist_Leave()
+        {
+            if (Text == string.Empty)
+            {
+                BackColor = Color.Black;
                 Text = PlaceHolder;
                 ForeColor = Color.LightGray;
             }
@@ -49,7 +55,8 @@ namespace GUI
             length = Tbx_Re.Text.Length;
             if (Tbx_Re.Text.Length > 0)
                 Tbx_Re.SelectionStart = Tbx_Re.Text.Length;
-
         }
+
+
     }
 }

@@ -55,6 +55,12 @@
     <Compile Include="CustomControls\CustomTextbox.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="CustomControls\CustomTextBox2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControls\CustomTextBox2.Designer.cs">
+      <DependentUpon>CustomTextBox2.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainGaime\TurnNotification.cs" />
     <Compile Include="MessageBoxes\OkMessageBox.cs">
       <SubType>Form</SubType>
@@ -67,6 +73,12 @@
     </Compile>
     <Compile Include="MessageBoxes\YesNoMessageBox.Designer.cs">
       <DependentUpon>YesNoMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Regist\RegistGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Regist\RegistGUI.Designer.cs">
+      <DependentUpon>RegistGUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Regist\RegistHelpGUI.cs">
       <SubType>Form</SubType>
@@ -125,12 +137,6 @@
     <Compile Include="Rank\RankGUI.Designer.cs">
       <DependentUpon>RankGUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="Regist\RegistGUI.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Regist\RegistGUI.Designer.cs">
-      <DependentUpon>RegistGUI.cs</DependentUpon>
-    </Compile>
     <Compile Include="Result\ResultGUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,6 +160,9 @@
     </Compile>
     <EmbeddedResource Include="CharacterChoice\CharacterChoiceGUI.resx">
       <DependentUpon>CharacterChoiceGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControls\CustomTextBox2.resx">
+      <DependentUpon>CustomTextBox2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hint\HintGUI.resx">
       <DependentUpon>HintGUI.cs</DependentUpon>
@@ -183,11 +192,11 @@
     <EmbeddedResource Include="Rank\RankGUI.resx">
       <DependentUpon>RankGUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Regist\RegistHelpGUI.resx">
-      <DependentUpon>RegistHelpGUI.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Regist\RegistGUI.resx">
       <DependentUpon>RegistGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Regist\RegistHelpGUI.resx">
+      <DependentUpon>RegistHelpGUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Result\ResultGUI.resx">
       <DependentUpon>ResultGUI.cs</DependentUpon>

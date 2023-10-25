@@ -42,21 +42,16 @@ namespace GUI
             this.Lbl_RegistPass = new System.Windows.Forms.Label();
             this.Lbl_AlertUsername = new System.Windows.Forms.Label();
             this.Lbl_RegistAcc = new System.Windows.Forms.Label();
+            this.Pbx_RegistBtnBg = new System.Windows.Forms.PictureBox();
+            this.Pbx_BackBtnBg = new System.Windows.Forms.PictureBox();
+            this.Btn_Help = new System.Windows.Forms.Button();
+            this.Pbx_Help = new System.Windows.Forms.PictureBox();
             this.Tbx_RequiredPassword = new GUI.CustomTextbox();
             this.Tbx_Name = new GUI.CustomTextbox();
             this.Tbx_Password = new GUI.CustomTextbox();
             this.Tbx_Username = new GUI.CustomTextbox();
-            this.Lbl_TitleRegist = new System.Windows.Forms.Label();
-            this.Pbx_RegistBtnBg = new System.Windows.Forms.PictureBox();
-            this.Pbx_TitleRegist = new System.Windows.Forms.PictureBox();
-            this.Pbx_Bird = new System.Windows.Forms.PictureBox();
-            this.Pbx_BackBtnBg = new System.Windows.Forms.PictureBox();
-            this.Btn_Help = new System.Windows.Forms.Button();
-            this.Pbx_Help = new System.Windows.Forms.PictureBox();
             this.Pnl_Inp.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_RegistBtnBg)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pbx_TitleRegist)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pbx_Bird)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_BackBtnBg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_Help)).BeginInit();
             this.SuspendLayout();
@@ -69,19 +64,18 @@ namespace GUI
             this.Btn_Regist.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Btn_Regist.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Btn_Regist.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_Regist.Font = new System.Drawing.Font("Comic Sans MS", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Regist.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Regist.ForeColor = System.Drawing.Color.Transparent;
-            this.Btn_Regist.Location = new System.Drawing.Point(189, 518);
+            this.Btn_Regist.Location = new System.Drawing.Point(883, 530);
+            this.Btn_Regist.Margin = new System.Windows.Forms.Padding(0);
             this.Btn_Regist.Name = "Btn_Regist";
-            this.Btn_Regist.Size = new System.Drawing.Size(209, 59);
+            this.Btn_Regist.Size = new System.Drawing.Size(267, 40);
             this.Btn_Regist.TabIndex = 4;
             this.Btn_Regist.TabStop = false;
             this.Btn_Regist.Text = "Đăng ký";
             this.Btn_Regist.UseVisualStyleBackColor = false;
             this.Btn_Regist.Click += new System.EventHandler(this.Btn_Regist_Click);
             this.Btn_Regist.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Btn_MouseDown);
-            this.Btn_Regist.MouseLeave += new System.EventHandler(this.Btn_MouseLeave);
-            this.Btn_Regist.MouseHover += new System.EventHandler(this.Btn_MouseHover);
             this.Btn_Regist.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Btn_MouseUp);
             // 
             // Btn_Back
@@ -91,19 +85,17 @@ namespace GUI
             this.Btn_Back.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Btn_Back.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Btn_Back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_Back.Font = new System.Drawing.Font("Comic Sans MS", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Back.ForeColor = System.Drawing.Color.White;
-            this.Btn_Back.Location = new System.Drawing.Point(432, 518);
+            this.Btn_Back.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Back.ForeColor = System.Drawing.Color.Black;
+            this.Btn_Back.Location = new System.Drawing.Point(674, 530);
             this.Btn_Back.Name = "Btn_Back";
-            this.Btn_Back.Size = new System.Drawing.Size(202, 59);
+            this.Btn_Back.Size = new System.Drawing.Size(206, 40);
             this.Btn_Back.TabIndex = 5;
             this.Btn_Back.TabStop = false;
             this.Btn_Back.Text = "Quay lại";
             this.Btn_Back.UseVisualStyleBackColor = false;
             this.Btn_Back.Click += new System.EventHandler(this.Btn_Back_Click);
             this.Btn_Back.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Btn_MouseDown);
-            this.Btn_Back.MouseLeave += new System.EventHandler(this.Btn_MouseLeave);
-            this.Btn_Back.MouseHover += new System.EventHandler(this.Btn_MouseHover);
             this.Btn_Back.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Btn_MouseUp);
             // 
             // Pnl_Inp
@@ -123,7 +115,7 @@ namespace GUI
             this.Pnl_Inp.Controls.Add(this.Tbx_Name);
             this.Pnl_Inp.Controls.Add(this.Tbx_Password);
             this.Pnl_Inp.Controls.Add(this.Tbx_Username);
-            this.Pnl_Inp.Location = new System.Drawing.Point(169, 180);
+            this.Pnl_Inp.Location = new System.Drawing.Point(651, 243);
             this.Pnl_Inp.Name = "Pnl_Inp";
             this.Pnl_Inp.Size = new System.Drawing.Size(499, 268);
             this.Pnl_Inp.TabIndex = 9;
@@ -172,8 +164,8 @@ namespace GUI
             // 
             this.Lbl_RegistName.BackColor = System.Drawing.Color.Transparent;
             this.Lbl_RegistName.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_RegistName.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Lbl_RegistName.Location = new System.Drawing.Point(3, 208);
+            this.Lbl_RegistName.ForeColor = System.Drawing.Color.Black;
+            this.Lbl_RegistName.Location = new System.Drawing.Point(26, 206);
             this.Lbl_RegistName.Name = "Lbl_RegistName";
             this.Lbl_RegistName.Size = new System.Drawing.Size(203, 39);
             this.Lbl_RegistName.TabIndex = 7;
@@ -196,10 +188,10 @@ namespace GUI
             // 
             this.Lbl_RegistRequiredPass.BackColor = System.Drawing.Color.Transparent;
             this.Lbl_RegistRequiredPass.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_RegistRequiredPass.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Lbl_RegistRequiredPass.Location = new System.Drawing.Point(3, 138);
+            this.Lbl_RegistRequiredPass.ForeColor = System.Drawing.Color.Black;
+            this.Lbl_RegistRequiredPass.Location = new System.Drawing.Point(26, 136);
             this.Lbl_RegistRequiredPass.Name = "Lbl_RegistRequiredPass";
-            this.Lbl_RegistRequiredPass.Size = new System.Drawing.Size(226, 52);
+            this.Lbl_RegistRequiredPass.Size = new System.Drawing.Size(203, 52);
             this.Lbl_RegistRequiredPass.TabIndex = 6;
             this.Lbl_RegistRequiredPass.Text = "Nhập lại mật khẩu";
             this.Lbl_RegistRequiredPass.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -220,10 +212,10 @@ namespace GUI
             // 
             this.Lbl_RegistPass.BackColor = System.Drawing.Color.Transparent;
             this.Lbl_RegistPass.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_RegistPass.ForeColor = System.Drawing.Color.Ivory;
-            this.Lbl_RegistPass.Location = new System.Drawing.Point(3, 74);
+            this.Lbl_RegistPass.ForeColor = System.Drawing.Color.Black;
+            this.Lbl_RegistPass.Location = new System.Drawing.Point(26, 72);
             this.Lbl_RegistPass.Name = "Lbl_RegistPass";
-            this.Lbl_RegistPass.Size = new System.Drawing.Size(220, 56);
+            this.Lbl_RegistPass.Size = new System.Drawing.Size(203, 56);
             this.Lbl_RegistPass.TabIndex = 5;
             this.Lbl_RegistPass.Text = "Nhập mật khẩu";
             this.Lbl_RegistPass.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -244,13 +236,64 @@ namespace GUI
             // 
             this.Lbl_RegistAcc.BackColor = System.Drawing.Color.Transparent;
             this.Lbl_RegistAcc.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_RegistAcc.ForeColor = System.Drawing.Color.Ivory;
-            this.Lbl_RegistAcc.Location = new System.Drawing.Point(3, 2);
+            this.Lbl_RegistAcc.ForeColor = System.Drawing.Color.Black;
+            this.Lbl_RegistAcc.Location = new System.Drawing.Point(26, 0);
             this.Lbl_RegistAcc.Name = "Lbl_RegistAcc";
-            this.Lbl_RegistAcc.Size = new System.Drawing.Size(220, 68);
+            this.Lbl_RegistAcc.Size = new System.Drawing.Size(203, 68);
             this.Lbl_RegistAcc.TabIndex = 4;
             this.Lbl_RegistAcc.Text = "Tên tài khoản";
             this.Lbl_RegistAcc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Pbx_RegistBtnBg
+            // 
+            this.Pbx_RegistBtnBg.BackColor = System.Drawing.Color.Transparent;
+            this.Pbx_RegistBtnBg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Pbx_RegistBtnBg.Location = new System.Drawing.Point(880, 520);
+            this.Pbx_RegistBtnBg.Name = "Pbx_RegistBtnBg";
+            this.Pbx_RegistBtnBg.Size = new System.Drawing.Size(270, 58);
+            this.Pbx_RegistBtnBg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Pbx_RegistBtnBg.TabIndex = 15;
+            this.Pbx_RegistBtnBg.TabStop = false;
+            // 
+            // Pbx_BackBtnBg
+            // 
+            this.Pbx_BackBtnBg.BackColor = System.Drawing.Color.Transparent;
+            this.Pbx_BackBtnBg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Pbx_BackBtnBg.Location = new System.Drawing.Point(682, 520);
+            this.Pbx_BackBtnBg.Name = "Pbx_BackBtnBg";
+            this.Pbx_BackBtnBg.Size = new System.Drawing.Size(198, 58);
+            this.Pbx_BackBtnBg.TabIndex = 16;
+            this.Pbx_BackBtnBg.TabStop = false;
+            // 
+            // Btn_Help
+            // 
+            this.Btn_Help.AutoSize = true;
+            this.Btn_Help.BackColor = System.Drawing.Color.Transparent;
+            this.Btn_Help.FlatAppearance.BorderSize = 0;
+            this.Btn_Help.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Btn_Help.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Btn_Help.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_Help.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Help.Location = new System.Drawing.Point(29, 72);
+            this.Btn_Help.Name = "Btn_Help";
+            this.Btn_Help.Size = new System.Drawing.Size(102, 34);
+            this.Btn_Help.TabIndex = 17;
+            this.Btn_Help.TabStop = false;
+            this.Btn_Help.Text = "Hướng dẫn";
+            this.Btn_Help.UseVisualStyleBackColor = false;
+            this.Btn_Help.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Btn_Help_MouseClick);
+            this.Btn_Help.MouseLeave += new System.EventHandler(this.Btn_MouseLeave);
+            this.Btn_Help.MouseHover += new System.EventHandler(this.Btn_MouseHover);
+            // 
+            // Pbx_Help
+            // 
+            this.Pbx_Help.BackColor = System.Drawing.Color.Transparent;
+            this.Pbx_Help.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Pbx_Help.Location = new System.Drawing.Point(-7, -11);
+            this.Pbx_Help.Name = "Pbx_Help";
+            this.Pbx_Help.Size = new System.Drawing.Size(256, 131);
+            this.Pbx_Help.TabIndex = 18;
+            this.Pbx_Help.TabStop = false;
             // 
             // Tbx_RequiredPassword
             // 
@@ -310,105 +353,18 @@ namespace GUI
             this.Tbx_Username.Enter += new System.EventHandler(this.UsernameTbx_Enter);
             this.Tbx_Username.Leave += new System.EventHandler(this.UsernameTbx_Leave);
             // 
-            // Lbl_TitleRegist
-            // 
-            this.Lbl_TitleRegist.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_TitleRegist.Font = new System.Drawing.Font("Comic Sans MS", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_TitleRegist.ForeColor = System.Drawing.Color.White;
-            this.Lbl_TitleRegist.Location = new System.Drawing.Point(302, 61);
-            this.Lbl_TitleRegist.Name = "Lbl_TitleRegist";
-            this.Lbl_TitleRegist.Size = new System.Drawing.Size(212, 55);
-            this.Lbl_TitleRegist.TabIndex = 14;
-            this.Lbl_TitleRegist.Text = "Đăng ký";
-            this.Lbl_TitleRegist.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Pbx_RegistBtnBg
-            // 
-            this.Pbx_RegistBtnBg.BackColor = System.Drawing.Color.Transparent;
-            this.Pbx_RegistBtnBg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Pbx_RegistBtnBg.Location = new System.Drawing.Point(154, 454);
-            this.Pbx_RegistBtnBg.Name = "Pbx_RegistBtnBg";
-            this.Pbx_RegistBtnBg.Size = new System.Drawing.Size(263, 179);
-            this.Pbx_RegistBtnBg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Pbx_RegistBtnBg.TabIndex = 15;
-            this.Pbx_RegistBtnBg.TabStop = false;
-            // 
-            // Pbx_TitleRegist
-            // 
-            this.Pbx_TitleRegist.BackColor = System.Drawing.Color.Transparent;
-            this.Pbx_TitleRegist.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Pbx_TitleRegist.Location = new System.Drawing.Point(258, -14);
-            this.Pbx_TitleRegist.Name = "Pbx_TitleRegist";
-            this.Pbx_TitleRegist.Size = new System.Drawing.Size(289, 202);
-            this.Pbx_TitleRegist.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Pbx_TitleRegist.TabIndex = 13;
-            this.Pbx_TitleRegist.TabStop = false;
-            // 
-            // Pbx_Bird
-            // 
-            this.Pbx_Bird.BackColor = System.Drawing.Color.Transparent;
-            this.Pbx_Bird.Location = new System.Drawing.Point(380, 0);
-            this.Pbx_Bird.Name = "Pbx_Bird";
-            this.Pbx_Bird.Size = new System.Drawing.Size(70, 47);
-            this.Pbx_Bird.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Pbx_Bird.TabIndex = 12;
-            this.Pbx_Bird.TabStop = false;
-            // 
-            // Pbx_BackBtnBg
-            // 
-            this.Pbx_BackBtnBg.BackColor = System.Drawing.Color.Transparent;
-            this.Pbx_BackBtnBg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Pbx_BackBtnBg.Location = new System.Drawing.Point(413, 454);
-            this.Pbx_BackBtnBg.Name = "Pbx_BackBtnBg";
-            this.Pbx_BackBtnBg.Size = new System.Drawing.Size(255, 179);
-            this.Pbx_BackBtnBg.TabIndex = 16;
-            this.Pbx_BackBtnBg.TabStop = false;
-            // 
-            // Btn_Help
-            // 
-            this.Btn_Help.AutoSize = true;
-            this.Btn_Help.BackColor = System.Drawing.Color.Transparent;
-            this.Btn_Help.FlatAppearance.BorderSize = 0;
-            this.Btn_Help.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Btn_Help.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Btn_Help.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_Help.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Help.Location = new System.Drawing.Point(29, 72);
-            this.Btn_Help.Name = "Btn_Help";
-            this.Btn_Help.Size = new System.Drawing.Size(102, 34);
-            this.Btn_Help.TabIndex = 17;
-            this.Btn_Help.TabStop = false;
-            this.Btn_Help.Text = "Hướng dẫn";
-            this.Btn_Help.UseVisualStyleBackColor = false;
-            this.Btn_Help.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Btn_Help_MouseClick);
-            this.Btn_Help.MouseLeave += new System.EventHandler(this.Btn_MouseLeave);
-            this.Btn_Help.MouseHover += new System.EventHandler(this.Btn_MouseHover);
-            // 
-            // Pbx_Help
-            // 
-            this.Pbx_Help.BackColor = System.Drawing.Color.Transparent;
-            this.Pbx_Help.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Pbx_Help.Location = new System.Drawing.Point(-7, -11);
-            this.Pbx_Help.Name = "Pbx_Help";
-            this.Pbx_Help.Size = new System.Drawing.Size(256, 131);
-            this.Pbx_Help.TabIndex = 18;
-            this.Pbx_Help.TabStop = false;
-            // 
             // RegistGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(814, 620);
+            this.ClientSize = new System.Drawing.Size(1240, 774);
             this.Controls.Add(this.Btn_Help);
             this.Controls.Add(this.Pbx_Help);
             this.Controls.Add(this.Btn_Back);
             this.Controls.Add(this.Btn_Regist);
             this.Controls.Add(this.Pbx_BackBtnBg);
             this.Controls.Add(this.Pbx_RegistBtnBg);
-            this.Controls.Add(this.Pbx_Bird);
-            this.Controls.Add(this.Lbl_TitleRegist);
-            this.Controls.Add(this.Pbx_TitleRegist);
             this.Controls.Add(this.Pnl_Inp);
             this.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.ForeColor = System.Drawing.Color.Black;
@@ -422,8 +378,6 @@ namespace GUI
             this.Pnl_Inp.ResumeLayout(false);
             this.Pnl_Inp.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_RegistBtnBg)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pbx_TitleRegist)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pbx_Bird)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_BackBtnBg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_Help)).EndInit();
             this.ResumeLayout(false);
@@ -443,10 +397,7 @@ namespace GUI
         private System.Windows.Forms.Label Lbl_RegistRequiredPass;
         private System.Windows.Forms.Label Lbl_RegistPass;
         private System.Windows.Forms.Label Lbl_RegistAcc;
-        private System.Windows.Forms.Label Lbl_TitleRegist;
         private System.Windows.Forms.PictureBox Pbx_RegistBtnBg;
-        private System.Windows.Forms.PictureBox Pbx_TitleRegist;
-        private System.Windows.Forms.PictureBox Pbx_Bird;
         private System.Windows.Forms.PictureBox Pbx_BackBtnBg;
         private System.Windows.Forms.Button Btn_Help;
         private System.Windows.Forms.PictureBox Pbx_Help;

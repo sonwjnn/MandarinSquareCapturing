@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using BLL;
+﻿using BLL;
 using DTO;
-using GUI.Ultils;
 using GUI.MessageBoxes;
+using GUI.Ultils;
+using System;
+using System.Drawing;
+using System.Windows.Forms;
 namespace GUI
 {
 
@@ -36,7 +29,7 @@ namespace GUI
         {
             loadImages();
             DoubleBuffered = true;
-            Cursor = Ultilities.ControlUltils.changeCursorUp();
+            //Cursor = Ultilities.ControlUltils.changeCursorUp();
             Btn_LogIn.FlatAppearance.BorderColor = Color.FromArgb(0, 0, 0, 0);
             Btn_Regist.FlatAppearance.BorderColor = Color.FromArgb(0, 0, 0, 0);
             Btn_Exit.FlatAppearance.BorderColor = Color.FromArgb(0, 0, 0, 0);
@@ -56,7 +49,6 @@ namespace GUI
             Program.runAnimation(AnimationState.FLOAT, this);
 
             Tbx_Username.changePH_Leave();
-            Tbx_Username.changePH_Leave();
             Tbx_Password.changePH_Leave();
             Tbx_Username.Focus();
 
@@ -64,12 +56,12 @@ namespace GUI
 
         private void loadImages()
         {
-            Pbx_Regist.Image = Ultilities.ControlUltils.getImageFromFile(@"LogIn\button1.png");
-            Pbx_Exit.Image = Ultilities.ControlUltils.getImageFromFile(@"LogIn\button1.png");
+            //Pbx_Regist.Image = Ultilities.ControlUltils.getImageFromFile(@"LogIn\button3.png");
+            //Pbx_Exit.Image = Ultilities.ControlUltils.getImageFromFile(@"LogIn\button4.png");
             Pbx_Login.Image = Ultilities.ControlUltils.getImageFromFile(@"LogIn\button1.png");
-            Pbx_Logo.Image = Ultilities.ControlUltils.getImageFromFile(@"LogIn\logo.png");
-            Pbx_Bird.Image = Ultilities.ControlUltils.getImageFromFile(@"LogIn\bird.gif");
-            BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"LogIn\background.jpg");
+            //Pbx_Logo.Image = Ultilities.ControlUltils.getImageFromFile(@"LogIn\logo.png");
+            //Pbx_Bird.Image = Ultilities.ControlUltils.getImageFromFile(@"LogIn\bird.gif");
+            BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"LogIn\background.png");
             Btn_EyePass.BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Regist\eyeHidden.png");
         }
         //event occur when player click log in button
@@ -135,7 +127,7 @@ namespace GUI
         private void PasswordTbx_Enter(object sender, EventArgs e)
         {
             if (!flagEye)
-                Tbx_Password.PasswordChar = '*';
+                Tbx_Password.PasswordChar = '●';
             ((CustomTextbox)sender).changePH_Enter();
         }
 
@@ -157,7 +149,7 @@ namespace GUI
 
         private void Btn_EyePass_Click(object sender, EventArgs e)
         {
-            if (Tbx_Password.PasswordChar == '*')
+            if (Tbx_Password.PasswordChar == '●')
             {
                 flagEye = true;
                 Tbx_Password.PasswordChar = '\0';
@@ -166,7 +158,7 @@ namespace GUI
             else
             {
                 flagEye = false;
-                Tbx_Password.PasswordChar = '*';
+                Tbx_Password.PasswordChar = '●';
                 Btn_EyePass.BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Regist\eyeHidden.png");
             }
         }

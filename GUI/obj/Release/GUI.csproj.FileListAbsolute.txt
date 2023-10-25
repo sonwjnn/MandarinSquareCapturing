@@ -165,3 +165,4 @@ C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Rele
 C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.csproj.CopyComplete
 C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.exe
 C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.pdb
+C:\Users\nguye\OneDrive\Documents\workspace\MandarinSquareCapturing\GUI\obj\Release\GUI.CustomControls.CustomTextBox2.resources

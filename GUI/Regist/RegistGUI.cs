@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using BLL;
+﻿using BLL;
 using DTO;
-using GUI.Ultils;
-using GUI.Ultils.FormAni;
 using GUI.MessageBoxes;
+using GUI.Ultils;
+using System;
+using System.Drawing;
+using System.Windows.Forms;
 namespace GUI
 {
     public partial class RegistGUI : Form
@@ -48,7 +41,7 @@ namespace GUI
             Btn_EyePass.FlatAppearance.BorderColor = Color.FromArgb(0, 0, 0, 0);
             Btn_EyeRequiredPass.FlatAppearance.BorderColor = Color.FromArgb(0, 0, 0, 0);
 
-            Ultilities.ControlUltils.changeParent(Lbl_TitleRegist, Pbx_TitleRegist, new Point(44, 75));
+            //Ultilities.ControlUltils.changeParent(Lbl_TitleRegist, Pbx_TitleRegist, new Point(44, 75));
             Ultilities.ControlUltils.changeParent(Btn_Help, Pbx_Help, new Point(34, 85));
             Ultilities.ControlUltils.changeParent(Btn_EyePass, Tbx_Password,
                 new Point(Tbx_Password.Width - Btn_EyePass.Width - 10, 5));
@@ -75,11 +68,11 @@ namespace GUI
         }
         private void loadImages()
         {
-            BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Regist\background.jpg");
-            Pbx_Bird.Image = Ultilities.ControlUltils.getImageFromFile(@"Regist\bird.gif");
-            Pbx_TitleRegist.BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Regist\banner.png");
+            BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Regist\background.png");
+            //Pbx_Bird.Image = Ultilities.ControlUltils.getImageFromFile(@"Regist\bird.gif");
+            //Pbx_TitleRegist.BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Regist\banner.png");
             Pbx_RegistBtnBg.BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Regist\left.png");
-            Pbx_BackBtnBg.BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Regist\right.png");
+            //Pbx_BackBtnBg.BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Regist\right.png");
             Pbx_Help.BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Result\back.png");
             Btn_EyePass.BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Regist\eyeHidden.png");
             Btn_EyeRequiredPass.BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Regist\eyeHidden.png");
