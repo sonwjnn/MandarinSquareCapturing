@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using BLL;
+﻿using BLL;
 using DTO;
 using GUI.MainGaime;
-using GUI.Ultils;
 using GUI.MessageBoxes;
+using GUI.Ultils;
 using GUI.Ultils.Enum;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Windows.Forms;
 namespace GUI
 {
     //This class represents for main game GUI
@@ -140,7 +135,7 @@ namespace GUI
             Ultilities.ControlUltils.changeParent(Pnl_Cell10, Pbx_Cell10, Point.Empty);
 
             //clock
-            Ultilities.ControlUltils.changeParent(Pbx_Clock, Pbx_LotusLeaf2, new Point(20, 0));
+            //Ultilities.ControlUltils.changeParent(Pbx_Clock, Pbx_LotusLeaf2, new Point(20, 0));
             Ultilities.ControlUltils.changeParent(Lbl_Clock, Pbx_Clock, new Point(5, (Pbx_Clock.Height - Lbl_Clock.Height) / 2));
 
             // containing boxes
@@ -186,15 +181,15 @@ namespace GUI
         {
             Pbx_PlayerStoneMandarin.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\playerMandarin.png");
             Pbx_BotStoneMandarin.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\botMandarin.png");
-            Pbx_BotMandarin.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\mandarinCell.png");
-            Pbx_BotMandarin.BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Main\sand.jpg");
-            Pbx_PlayerMandarin.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\mandarinCell.png");
-            Pbx_PlayerMandarin.BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Main\sand.jpg");
+            //Pbx_BotMandarin.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\mandarinCell.png");
+            //Pbx_BotMandarin.BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Main\sand.jpg");
+            //Pbx_PlayerMandarin.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\mandarinCell.png");
+            //Pbx_PlayerMandarin.BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Main\sand.jpg");
 
-            Pbx_RightBorder.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\rightBorder.png");
-            Pbx_LeftBorder.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\leftBorder.png");
-            Pbx_LotusLeaf.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\lotusLeaf1.png");
-            Pbx_LotusLeaf2.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\lotusLeaf2.png");
+            //Pbx_RightBorder.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\rightBorder.png");
+            //Pbx_LeftBorder.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\leftBorder.png");
+            //Pbx_LotusLeaf.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\lotusLeaf1.png");
+            //Pbx_LotusLeaf2.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\lotusLeaf2.png");
             Pbx_BotBox.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\box.png");
             Pbx_PlayerBox.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\box.png");
 
@@ -206,7 +201,7 @@ namespace GUI
             Btn_Back.BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Main\home.png");
             Pbx_MandarinAmount.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\trooper.png");
             Pbx_MandarinInfo.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\trooperInfo.png");
-            Pbx_Clock.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\clock.gif");
+            Pbx_Clock.Image = Ultilities.ControlUltils.getImageFromFile(@"Main\clock.png");
             BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Main\background.jpg");
 
             Image Img_Troooper = Ultilities.ControlUltils.getImageFromFile(@"Main\trooper.png");
@@ -234,8 +229,8 @@ namespace GUI
                     else
                         Ultilities.ControlUltils.arrangeTroopersInBotCells(control);
                 }
-                else if (control.Name.Contains("Pbx_Cell"))
-                    ((PictureBox)control).Image = Ultilities.ControlUltils.getImageFromFile(@"Main\trooperCell.png");
+                //else if (control.Name.Contains("Pbx_Cell"))
+                //    ((PictureBox)control).Image = Ultilities.ControlUltils.getImageFromFile(@"Main\trooperCell.png");
             }
 
         }
@@ -986,7 +981,7 @@ namespace GUI
                     Lbl_Clock.Visible = false;
                 else
                 {
-                    Program.Dic_Sounds[currTime > 0 ? 
+                    Program.Dic_Sounds[currTime > 0 ?
                         (currTime > 5 ? SoundKind.TICK_SOUND : SoundKind.FAST_TICK_SOUND) :
                         SoundKind.TIMEUP_SOUND].windowsMediaPlayer.controls.play();
                     Lbl_Clock.Visible = true;
@@ -1130,7 +1125,7 @@ namespace GUI
 
         private void MainGameGUI_FormClosing(object sender, FormClosingEventArgs e)
         {
-           
+
             if (Program.List_HiddenForms.Count <= 0)
             {
                 Program.changeForm(FormKind.YES_NO_MESSAGE_BOX, new YesNoMessageBox(),

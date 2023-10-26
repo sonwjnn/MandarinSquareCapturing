@@ -78,7 +78,6 @@ namespace GUI
             this.Pbx_BotBox = new System.Windows.Forms.PictureBox();
             this.Pbx_PlayerBox = new System.Windows.Forms.PictureBox();
             this.Lbl_ScoreCell6 = new System.Windows.Forms.Label();
-            this.Pbx_LotusLeaf2 = new System.Windows.Forms.PictureBox();
             this.Pbx_Clock = new System.Windows.Forms.PictureBox();
             this.Lbl_Clock = new System.Windows.Forms.Label();
             this.Pnl_BotBox = new System.Windows.Forms.Panel();
@@ -131,7 +130,6 @@ namespace GUI
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_LotusLeaf)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_BotBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_PlayerBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pbx_LotusLeaf2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_Clock)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_PlayerMandarin1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_PlayerMandarin2)).BeginInit();
@@ -153,9 +151,10 @@ namespace GUI
             // 
             // Lbl_ScoreCell1
             // 
-            this.Lbl_ScoreCell1.BackColor = System.Drawing.Color.Red;
+            this.Lbl_ScoreCell1.BackColor = System.Drawing.Color.Black;
             this.Lbl_ScoreCell1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_ScoreCell1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreCell1.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreCell1.ForeColor = System.Drawing.Color.White;
             this.Lbl_ScoreCell1.Location = new System.Drawing.Point(275, 227);
             this.Lbl_ScoreCell1.Name = "Lbl_ScoreCell1";
             this.Lbl_ScoreCell1.Size = new System.Drawing.Size(111, 27);
@@ -165,9 +164,10 @@ namespace GUI
             // 
             // Lbl_ScoreCell2
             // 
-            this.Lbl_ScoreCell2.BackColor = System.Drawing.Color.Red;
+            this.Lbl_ScoreCell2.BackColor = System.Drawing.Color.Black;
             this.Lbl_ScoreCell2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_ScoreCell2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreCell2.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreCell2.ForeColor = System.Drawing.Color.White;
             this.Lbl_ScoreCell2.Location = new System.Drawing.Point(420, 227);
             this.Lbl_ScoreCell2.Name = "Lbl_ScoreCell2";
             this.Lbl_ScoreCell2.Size = new System.Drawing.Size(111, 27);
@@ -177,9 +177,10 @@ namespace GUI
             // 
             // Lbl_ScoreCell3
             // 
-            this.Lbl_ScoreCell3.BackColor = System.Drawing.Color.Red;
+            this.Lbl_ScoreCell3.BackColor = System.Drawing.Color.Black;
             this.Lbl_ScoreCell3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_ScoreCell3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreCell3.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreCell3.ForeColor = System.Drawing.Color.White;
             this.Lbl_ScoreCell3.Location = new System.Drawing.Point(557, 227);
             this.Lbl_ScoreCell3.Name = "Lbl_ScoreCell3";
             this.Lbl_ScoreCell3.Size = new System.Drawing.Size(111, 27);
@@ -189,9 +190,10 @@ namespace GUI
             // 
             // Lbl_ScoreCell4
             // 
-            this.Lbl_ScoreCell4.BackColor = System.Drawing.Color.Red;
+            this.Lbl_ScoreCell4.BackColor = System.Drawing.Color.Black;
             this.Lbl_ScoreCell4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_ScoreCell4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreCell4.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreCell4.ForeColor = System.Drawing.Color.White;
             this.Lbl_ScoreCell4.Location = new System.Drawing.Point(712, 227);
             this.Lbl_ScoreCell4.Name = "Lbl_ScoreCell4";
             this.Lbl_ScoreCell4.Size = new System.Drawing.Size(111, 27);
@@ -201,9 +203,10 @@ namespace GUI
             // 
             // Lbl_ScoreCell5
             // 
-            this.Lbl_ScoreCell5.BackColor = System.Drawing.Color.Red;
+            this.Lbl_ScoreCell5.BackColor = System.Drawing.Color.Black;
             this.Lbl_ScoreCell5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_ScoreCell5.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreCell5.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreCell5.ForeColor = System.Drawing.Color.White;
             this.Lbl_ScoreCell5.Location = new System.Drawing.Point(849, 227);
             this.Lbl_ScoreCell5.Name = "Lbl_ScoreCell5";
             this.Lbl_ScoreCell5.Size = new System.Drawing.Size(111, 27);
@@ -213,9 +216,9 @@ namespace GUI
             // 
             // Lbl_ScoreCell7
             // 
-            this.Lbl_ScoreCell7.BackColor = System.Drawing.Color.Lime;
+            this.Lbl_ScoreCell7.BackColor = System.Drawing.Color.White;
             this.Lbl_ScoreCell7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_ScoreCell7.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreCell7.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_ScoreCell7.Location = new System.Drawing.Point(420, 519);
             this.Lbl_ScoreCell7.Name = "Lbl_ScoreCell7";
             this.Lbl_ScoreCell7.Size = new System.Drawing.Size(111, 27);
@@ -225,9 +228,9 @@ namespace GUI
             // 
             // Lbl_ScoreCell8
             // 
-            this.Lbl_ScoreCell8.BackColor = System.Drawing.Color.Lime;
+            this.Lbl_ScoreCell8.BackColor = System.Drawing.Color.White;
             this.Lbl_ScoreCell8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_ScoreCell8.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreCell8.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_ScoreCell8.Location = new System.Drawing.Point(557, 519);
             this.Lbl_ScoreCell8.Name = "Lbl_ScoreCell8";
             this.Lbl_ScoreCell8.Size = new System.Drawing.Size(111, 27);
@@ -247,7 +250,7 @@ namespace GUI
             // 
             // Pbx_PlayerMandarin
             // 
-            this.Pbx_PlayerMandarin.BackColor = System.Drawing.Color.Black;
+            this.Pbx_PlayerMandarin.BackColor = System.Drawing.Color.White;
             this.Pbx_PlayerMandarin.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Pbx_PlayerMandarin.Location = new System.Drawing.Point(854, 0);
             this.Pbx_PlayerMandarin.Name = "Pbx_PlayerMandarin";
@@ -357,7 +360,7 @@ namespace GUI
             // 
             // Pbx_BotMandarin
             // 
-            this.Pbx_BotMandarin.BackColor = System.Drawing.Color.Black;
+            this.Pbx_BotMandarin.BackColor = System.Drawing.Color.White;
             this.Pbx_BotMandarin.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Pbx_BotMandarin.Location = new System.Drawing.Point(0, 0);
             this.Pbx_BotMandarin.Name = "Pbx_BotMandarin";
@@ -546,9 +549,9 @@ namespace GUI
             // 
             // Lbl_ScoreCell9
             // 
-            this.Lbl_ScoreCell9.BackColor = System.Drawing.Color.Lime;
+            this.Lbl_ScoreCell9.BackColor = System.Drawing.Color.White;
             this.Lbl_ScoreCell9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_ScoreCell9.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreCell9.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_ScoreCell9.Location = new System.Drawing.Point(712, 519);
             this.Lbl_ScoreCell9.Name = "Lbl_ScoreCell9";
             this.Lbl_ScoreCell9.Size = new System.Drawing.Size(111, 27);
@@ -558,9 +561,9 @@ namespace GUI
             // 
             // Lbl_ScoreCell10
             // 
-            this.Lbl_ScoreCell10.BackColor = System.Drawing.Color.Lime;
+            this.Lbl_ScoreCell10.BackColor = System.Drawing.Color.White;
             this.Lbl_ScoreCell10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_ScoreCell10.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreCell10.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_ScoreCell10.Location = new System.Drawing.Point(849, 519);
             this.Lbl_ScoreCell10.Name = "Lbl_ScoreCell10";
             this.Lbl_ScoreCell10.Size = new System.Drawing.Size(111, 27);
@@ -570,9 +573,9 @@ namespace GUI
             // 
             // Lbl_ScoreMandiran2
             // 
-            this.Lbl_ScoreMandiran2.BackColor = System.Drawing.Color.Lime;
+            this.Lbl_ScoreMandiran2.BackColor = System.Drawing.Color.White;
             this.Lbl_ScoreMandiran2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_ScoreMandiran2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreMandiran2.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_ScoreMandiran2.Location = new System.Drawing.Point(992, 519);
             this.Lbl_ScoreMandiran2.Name = "Lbl_ScoreMandiran2";
             this.Lbl_ScoreMandiran2.Size = new System.Drawing.Size(113, 27);
@@ -582,9 +585,10 @@ namespace GUI
             // 
             // Lbl_ScoreMandiran1
             // 
-            this.Lbl_ScoreMandiran1.BackColor = System.Drawing.Color.Red;
+            this.Lbl_ScoreMandiran1.BackColor = System.Drawing.Color.Black;
             this.Lbl_ScoreMandiran1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_ScoreMandiran1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreMandiran1.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreMandiran1.ForeColor = System.Drawing.Color.White;
             this.Lbl_ScoreMandiran1.Location = new System.Drawing.Point(139, 227);
             this.Lbl_ScoreMandiran1.Name = "Lbl_ScoreMandiran1";
             this.Lbl_ScoreMandiran1.Size = new System.Drawing.Size(111, 27);
@@ -603,7 +607,7 @@ namespace GUI
             // 
             // Pbx_PlayerAvt
             // 
-            this.Pbx_PlayerAvt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.Pbx_PlayerAvt.BackColor = System.Drawing.Color.White;
             this.Pbx_PlayerAvt.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Pbx_PlayerAvt.Location = new System.Drawing.Point(0, 0);
             this.Pbx_PlayerAvt.Name = "Pbx_PlayerAvt";
@@ -623,7 +627,7 @@ namespace GUI
             // 
             // Pbx_BotAvt
             // 
-            this.Pbx_BotAvt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.Pbx_BotAvt.BackColor = System.Drawing.Color.White;
             this.Pbx_BotAvt.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Pbx_BotAvt.Location = new System.Drawing.Point(0, -1);
             this.Pbx_BotAvt.Name = "Pbx_BotAvt";
@@ -635,7 +639,7 @@ namespace GUI
             // Pbx_LotusLeaf
             // 
             this.Pbx_LotusLeaf.BackColor = System.Drawing.Color.Transparent;
-            this.Pbx_LotusLeaf.Location = new System.Drawing.Point(59, 583);
+            this.Pbx_LotusLeaf.Location = new System.Drawing.Point(27, 587);
             this.Pbx_LotusLeaf.Name = "Pbx_LotusLeaf";
             this.Pbx_LotusLeaf.Size = new System.Drawing.Size(251, 133);
             this.Pbx_LotusLeaf.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -645,9 +649,9 @@ namespace GUI
             // Pbx_BotBox
             // 
             this.Pbx_BotBox.BackColor = System.Drawing.Color.Transparent;
-            this.Pbx_BotBox.Location = new System.Drawing.Point(1028, 9);
+            this.Pbx_BotBox.Location = new System.Drawing.Point(993, 0);
             this.Pbx_BotBox.Name = "Pbx_BotBox";
-            this.Pbx_BotBox.Size = new System.Drawing.Size(160, 94);
+            this.Pbx_BotBox.Size = new System.Drawing.Size(160, 116);
             this.Pbx_BotBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pbx_BotBox.TabIndex = 29;
             this.Pbx_BotBox.TabStop = false;
@@ -655,18 +659,18 @@ namespace GUI
             // Pbx_PlayerBox
             // 
             this.Pbx_PlayerBox.BackColor = System.Drawing.Color.Transparent;
-            this.Pbx_PlayerBox.Location = new System.Drawing.Point(100, 601);
+            this.Pbx_PlayerBox.Location = new System.Drawing.Point(68, 605);
             this.Pbx_PlayerBox.Name = "Pbx_PlayerBox";
-            this.Pbx_PlayerBox.Size = new System.Drawing.Size(160, 94);
+            this.Pbx_PlayerBox.Size = new System.Drawing.Size(160, 115);
             this.Pbx_PlayerBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pbx_PlayerBox.TabIndex = 30;
             this.Pbx_PlayerBox.TabStop = false;
             // 
             // Lbl_ScoreCell6
             // 
-            this.Lbl_ScoreCell6.BackColor = System.Drawing.Color.Lime;
+            this.Lbl_ScoreCell6.BackColor = System.Drawing.Color.White;
             this.Lbl_ScoreCell6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_ScoreCell6.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreCell6.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_ScoreCell6.Location = new System.Drawing.Point(268, 519);
             this.Lbl_ScoreCell6.Name = "Lbl_ScoreCell6";
             this.Lbl_ScoreCell6.Size = new System.Drawing.Size(111, 27);
@@ -674,22 +678,12 @@ namespace GUI
             this.Lbl_ScoreCell6.Text = "5";
             this.Lbl_ScoreCell6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Pbx_LotusLeaf2
-            // 
-            this.Pbx_LotusLeaf2.BackColor = System.Drawing.Color.Transparent;
-            this.Pbx_LotusLeaf2.Location = new System.Drawing.Point(897, 583);
-            this.Pbx_LotusLeaf2.Name = "Pbx_LotusLeaf2";
-            this.Pbx_LotusLeaf2.Size = new System.Drawing.Size(133, 79);
-            this.Pbx_LotusLeaf2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Pbx_LotusLeaf2.TabIndex = 32;
-            this.Pbx_LotusLeaf2.TabStop = false;
-            // 
             // Pbx_Clock
             // 
             this.Pbx_Clock.BackColor = System.Drawing.Color.Transparent;
-            this.Pbx_Clock.Location = new System.Drawing.Point(913, 588);
+            this.Pbx_Clock.Location = new System.Drawing.Point(1121, 343);
             this.Pbx_Clock.Name = "Pbx_Clock";
-            this.Pbx_Clock.Size = new System.Drawing.Size(100, 74);
+            this.Pbx_Clock.Size = new System.Drawing.Size(107, 95);
             this.Pbx_Clock.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pbx_Clock.TabIndex = 33;
             this.Pbx_Clock.TabStop = false;
@@ -697,11 +691,11 @@ namespace GUI
             // Lbl_Clock
             // 
             this.Lbl_Clock.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_Clock.Font = new System.Drawing.Font("Snap ITC", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Clock.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Clock.ForeColor = System.Drawing.Color.Black;
-            this.Lbl_Clock.Location = new System.Drawing.Point(914, 601);
+            this.Lbl_Clock.Location = new System.Drawing.Point(1121, 343);
             this.Lbl_Clock.Name = "Lbl_Clock";
-            this.Lbl_Clock.Size = new System.Drawing.Size(99, 39);
+            this.Lbl_Clock.Size = new System.Drawing.Size(107, 95);
             this.Lbl_Clock.TabIndex = 34;
             this.Lbl_Clock.Text = "13";
             this.Lbl_Clock.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -709,33 +703,33 @@ namespace GUI
             // Pnl_BotBox
             // 
             this.Pnl_BotBox.BackColor = System.Drawing.Color.Transparent;
-            this.Pnl_BotBox.Location = new System.Drawing.Point(1043, 20);
+            this.Pnl_BotBox.Location = new System.Drawing.Point(1008, 1);
             this.Pnl_BotBox.Name = "Pnl_BotBox";
-            this.Pnl_BotBox.Size = new System.Drawing.Size(128, 75);
+            this.Pnl_BotBox.Size = new System.Drawing.Size(128, 115);
             this.Pnl_BotBox.TabIndex = 78;
             // 
             // Pnl_PlayerBox
             // 
             this.Pnl_PlayerBox.BackColor = System.Drawing.Color.Transparent;
-            this.Pnl_PlayerBox.Location = new System.Drawing.Point(117, 613);
+            this.Pnl_PlayerBox.Location = new System.Drawing.Point(85, 617);
             this.Pnl_PlayerBox.Name = "Pnl_PlayerBox";
-            this.Pnl_PlayerBox.Size = new System.Drawing.Size(128, 75);
+            this.Pnl_PlayerBox.Size = new System.Drawing.Size(128, 103);
             this.Pnl_PlayerBox.TabIndex = 77;
             // 
             // Pbx_PlayerMandarin1
             // 
-            this.Pbx_PlayerMandarin1.Location = new System.Drawing.Point(321, 696);
+            this.Pbx_PlayerMandarin1.Location = new System.Drawing.Point(309, 696);
             this.Pbx_PlayerMandarin1.Name = "Pbx_PlayerMandarin1";
-            this.Pbx_PlayerMandarin1.Size = new System.Drawing.Size(88, 50);
+            this.Pbx_PlayerMandarin1.Size = new System.Drawing.Size(137, 79);
             this.Pbx_PlayerMandarin1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pbx_PlayerMandarin1.TabIndex = 79;
             this.Pbx_PlayerMandarin1.TabStop = false;
             // 
             // Pbx_PlayerMandarin2
             // 
-            this.Pbx_PlayerMandarin2.Location = new System.Drawing.Point(821, 12);
+            this.Pbx_PlayerMandarin2.Location = new System.Drawing.Point(810, 1);
             this.Pbx_PlayerMandarin2.Name = "Pbx_PlayerMandarin2";
-            this.Pbx_PlayerMandarin2.Size = new System.Drawing.Size(88, 50);
+            this.Pbx_PlayerMandarin2.Size = new System.Drawing.Size(122, 79);
             this.Pbx_PlayerMandarin2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pbx_PlayerMandarin2.TabIndex = 82;
             this.Pbx_PlayerMandarin2.TabStop = false;
@@ -743,25 +737,25 @@ namespace GUI
             // Pnl_PlayerMandarin1
             // 
             this.Pnl_PlayerMandarin1.BackColor = System.Drawing.Color.Transparent;
-            this.Pnl_PlayerMandarin1.Location = new System.Drawing.Point(330, 702);
+            this.Pnl_PlayerMandarin1.Location = new System.Drawing.Point(309, 702);
             this.Pnl_PlayerMandarin1.Name = "Pnl_PlayerMandarin1";
-            this.Pnl_PlayerMandarin1.Size = new System.Drawing.Size(69, 40);
+            this.Pnl_PlayerMandarin1.Size = new System.Drawing.Size(137, 60);
             this.Pnl_PlayerMandarin1.TabIndex = 79;
             // 
             // Pnl_PlayerMandarin2
             // 
             this.Pnl_PlayerMandarin2.BackColor = System.Drawing.Color.Transparent;
-            this.Pnl_PlayerMandarin2.Location = new System.Drawing.Point(829, 15);
+            this.Pnl_PlayerMandarin2.Location = new System.Drawing.Point(810, 8);
             this.Pnl_PlayerMandarin2.Name = "Pnl_PlayerMandarin2";
-            this.Pnl_PlayerMandarin2.Size = new System.Drawing.Size(69, 40);
+            this.Pnl_PlayerMandarin2.Size = new System.Drawing.Size(122, 47);
             this.Pnl_PlayerMandarin2.TabIndex = 79;
             // 
             // Lbl_ScoreTroopePlayerBox
             // 
-            this.Lbl_ScoreTroopePlayerBox.BackColor = System.Drawing.Color.Lime;
+            this.Lbl_ScoreTroopePlayerBox.BackColor = System.Drawing.Color.White;
             this.Lbl_ScoreTroopePlayerBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_ScoreTroopePlayerBox.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_ScoreTroopePlayerBox.Location = new System.Drawing.Point(117, 719);
+            this.Lbl_ScoreTroopePlayerBox.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreTroopePlayerBox.Location = new System.Drawing.Point(85, 723);
             this.Lbl_ScoreTroopePlayerBox.Name = "Lbl_ScoreTroopePlayerBox";
             this.Lbl_ScoreTroopePlayerBox.Size = new System.Drawing.Size(111, 27);
             this.Lbl_ScoreTroopePlayerBox.TabIndex = 83;
@@ -770,10 +764,10 @@ namespace GUI
             // 
             // Lbl_ScoreMandarinPlayerBox1
             // 
-            this.Lbl_ScoreMandarinPlayerBox1.BackColor = System.Drawing.Color.Lime;
+            this.Lbl_ScoreMandarinPlayerBox1.BackColor = System.Drawing.Color.White;
             this.Lbl_ScoreMandarinPlayerBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_ScoreMandarinPlayerBox1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_ScoreMandarinPlayerBox1.Location = new System.Drawing.Point(432, 710);
+            this.Lbl_ScoreMandarinPlayerBox1.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreMandarinPlayerBox1.Location = new System.Drawing.Point(449, 710);
             this.Lbl_ScoreMandarinPlayerBox1.Name = "Lbl_ScoreMandarinPlayerBox1";
             this.Lbl_ScoreMandarinPlayerBox1.Size = new System.Drawing.Size(82, 27);
             this.Lbl_ScoreMandarinPlayerBox1.TabIndex = 84;
@@ -782,9 +776,10 @@ namespace GUI
             // 
             // Lbl_ScoreMandarinBotBox1
             // 
-            this.Lbl_ScoreMandarinBotBox1.BackColor = System.Drawing.Color.Red;
+            this.Lbl_ScoreMandarinBotBox1.BackColor = System.Drawing.Color.White;
             this.Lbl_ScoreMandarinBotBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_ScoreMandarinBotBox1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreMandarinBotBox1.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreMandarinBotBox1.ForeColor = System.Drawing.Color.Black;
             this.Lbl_ScoreMandarinBotBox1.Location = new System.Drawing.Point(703, 710);
             this.Lbl_ScoreMandarinBotBox1.Name = "Lbl_ScoreMandarinBotBox1";
             this.Lbl_ScoreMandarinBotBox1.Size = new System.Drawing.Size(82, 27);
@@ -794,9 +789,10 @@ namespace GUI
             // 
             // Lbl_ScoreMandarinBotBox2
             // 
-            this.Lbl_ScoreMandarinBotBox2.BackColor = System.Drawing.Color.Red;
+            this.Lbl_ScoreMandarinBotBox2.BackColor = System.Drawing.Color.Black;
             this.Lbl_ScoreMandarinBotBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_ScoreMandarinBotBox2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreMandarinBotBox2.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreMandarinBotBox2.ForeColor = System.Drawing.Color.White;
             this.Lbl_ScoreMandarinBotBox2.Location = new System.Drawing.Point(443, 35);
             this.Lbl_ScoreMandarinBotBox2.Name = "Lbl_ScoreMandarinBotBox2";
             this.Lbl_ScoreMandarinBotBox2.Size = new System.Drawing.Size(88, 27);
@@ -806,9 +802,10 @@ namespace GUI
             // 
             // Lbl_ScoreMandarinPlayerBox2
             // 
-            this.Lbl_ScoreMandarinPlayerBox2.BackColor = System.Drawing.Color.Lime;
+            this.Lbl_ScoreMandarinPlayerBox2.BackColor = System.Drawing.Color.Black;
             this.Lbl_ScoreMandarinPlayerBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_ScoreMandarinPlayerBox2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreMandarinPlayerBox2.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreMandarinPlayerBox2.ForeColor = System.Drawing.Color.White;
             this.Lbl_ScoreMandarinPlayerBox2.Location = new System.Drawing.Point(703, 35);
             this.Lbl_ScoreMandarinPlayerBox2.Name = "Lbl_ScoreMandarinPlayerBox2";
             this.Lbl_ScoreMandarinPlayerBox2.Size = new System.Drawing.Size(88, 27);
@@ -818,10 +815,11 @@ namespace GUI
             // 
             // Lbl_ScoreTroopeBotBox
             // 
-            this.Lbl_ScoreTroopeBotBox.BackColor = System.Drawing.Color.Red;
+            this.Lbl_ScoreTroopeBotBox.BackColor = System.Drawing.Color.Black;
             this.Lbl_ScoreTroopeBotBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_ScoreTroopeBotBox.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_ScoreTroopeBotBox.Location = new System.Drawing.Point(1043, 106);
+            this.Lbl_ScoreTroopeBotBox.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreTroopeBotBox.ForeColor = System.Drawing.Color.White;
+            this.Lbl_ScoreTroopeBotBox.Location = new System.Drawing.Point(1008, 119);
             this.Lbl_ScoreTroopeBotBox.Name = "Lbl_ScoreTroopeBotBox";
             this.Lbl_ScoreTroopeBotBox.Size = new System.Drawing.Size(128, 27);
             this.Lbl_ScoreTroopeBotBox.TabIndex = 88;
@@ -830,9 +828,9 @@ namespace GUI
             // 
             // Lbl_PlayerRent
             // 
-            this.Lbl_PlayerRent.BackColor = System.Drawing.Color.Yellow;
-            this.Lbl_PlayerRent.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_PlayerRent.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_PlayerRent.BackColor = System.Drawing.Color.White;
+            this.Lbl_PlayerRent.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_PlayerRent.ForeColor = System.Drawing.Color.Black;
             this.Lbl_PlayerRent.Location = new System.Drawing.Point(552, 647);
             this.Lbl_PlayerRent.Name = "Lbl_PlayerRent";
             this.Lbl_PlayerRent.Size = new System.Drawing.Size(133, 31);
@@ -842,9 +840,9 @@ namespace GUI
             // 
             // Lbl_BotRent
             // 
-            this.Lbl_BotRent.BackColor = System.Drawing.Color.Yellow;
-            this.Lbl_BotRent.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_BotRent.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_BotRent.BackColor = System.Drawing.Color.Black;
+            this.Lbl_BotRent.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_BotRent.ForeColor = System.Drawing.Color.White;
             this.Lbl_BotRent.Location = new System.Drawing.Point(552, 98);
             this.Lbl_BotRent.Name = "Lbl_BotRent";
             this.Lbl_BotRent.Size = new System.Drawing.Size(133, 31);
@@ -856,10 +854,10 @@ namespace GUI
             // 
             this.Lbl_Turn.AutoSize = true;
             this.Lbl_Turn.BackColor = System.Drawing.Color.DarkOrange;
-            this.Lbl_Turn.Font = new System.Drawing.Font("Consolas", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.Lbl_Turn.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Turn.Location = new System.Drawing.Point(1063, 710);
             this.Lbl_Turn.Name = "Lbl_Turn";
-            this.Lbl_Turn.Size = new System.Drawing.Size(156, 26);
+            this.Lbl_Turn.Size = new System.Drawing.Size(136, 27);
             this.Lbl_Turn.TabIndex = 91;
             this.Lbl_Turn.Text = "Lượt của bạn";
             // 
@@ -867,16 +865,16 @@ namespace GUI
             // 
             this.Pnl_BotMandarin1.BackColor = System.Drawing.Color.Transparent;
             this.Pnl_BotMandarin1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Pnl_BotMandarin1.Location = new System.Drawing.Point(821, 702);
+            this.Pnl_BotMandarin1.Location = new System.Drawing.Point(810, 702);
             this.Pnl_BotMandarin1.Name = "Pnl_BotMandarin1";
-            this.Pnl_BotMandarin1.Size = new System.Drawing.Size(69, 40);
+            this.Pnl_BotMandarin1.Size = new System.Drawing.Size(132, 60);
             this.Pnl_BotMandarin1.TabIndex = 78;
             // 
             // Pbx_BotMandarin2
             // 
-            this.Pbx_BotMandarin2.Location = new System.Drawing.Point(321, 20);
+            this.Pbx_BotMandarin2.Location = new System.Drawing.Point(291, 0);
             this.Pbx_BotMandarin2.Name = "Pbx_BotMandarin2";
-            this.Pbx_BotMandarin2.Size = new System.Drawing.Size(88, 50);
+            this.Pbx_BotMandarin2.Size = new System.Drawing.Size(118, 80);
             this.Pbx_BotMandarin2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pbx_BotMandarin2.TabIndex = 81;
             this.Pbx_BotMandarin2.TabStop = false;
@@ -884,16 +882,16 @@ namespace GUI
             // Pnl_BotMandarin2
             // 
             this.Pnl_BotMandarin2.BackColor = System.Drawing.Color.Transparent;
-            this.Pnl_BotMandarin2.Location = new System.Drawing.Point(330, 28);
+            this.Pnl_BotMandarin2.Location = new System.Drawing.Point(291, 8);
             this.Pnl_BotMandarin2.Name = "Pnl_BotMandarin2";
-            this.Pnl_BotMandarin2.Size = new System.Drawing.Size(69, 40);
+            this.Pnl_BotMandarin2.Size = new System.Drawing.Size(118, 54);
             this.Pnl_BotMandarin2.TabIndex = 79;
             // 
             // Pbx_BotMandarin1
             // 
             this.Pbx_BotMandarin1.Location = new System.Drawing.Point(810, 696);
             this.Pbx_BotMandarin1.Name = "Pbx_BotMandarin1";
-            this.Pbx_BotMandarin1.Size = new System.Drawing.Size(88, 50);
+            this.Pbx_BotMandarin1.Size = new System.Drawing.Size(132, 78);
             this.Pbx_BotMandarin1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pbx_BotMandarin1.TabIndex = 80;
             this.Pbx_BotMandarin1.TabStop = false;
@@ -939,10 +937,10 @@ namespace GUI
             // Lbl_MandarinAmount
             // 
             this.Lbl_MandarinAmount.AutoSize = true;
-            this.Lbl_MandarinAmount.Font = new System.Drawing.Font("Comic Sans MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_MandarinAmount.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_MandarinAmount.Location = new System.Drawing.Point(53, 351);
             this.Lbl_MandarinAmount.Name = "Lbl_MandarinAmount";
-            this.Lbl_MandarinAmount.Size = new System.Drawing.Size(24, 26);
+            this.Lbl_MandarinAmount.Size = new System.Drawing.Size(24, 27);
             this.Lbl_MandarinAmount.TabIndex = 95;
             this.Lbl_MandarinAmount.Text = "0";
             // 
@@ -987,7 +985,6 @@ namespace GUI
             this.Controls.Add(this.Pnl_BotBox);
             this.Controls.Add(this.Lbl_Clock);
             this.Controls.Add(this.Pbx_Clock);
-            this.Controls.Add(this.Pbx_LotusLeaf2);
             this.Controls.Add(this.Lbl_ScoreCell6);
             this.Controls.Add(this.Pbx_PlayerBox);
             this.Controls.Add(this.Pbx_BotBox);
@@ -1042,7 +1039,6 @@ namespace GUI
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_LotusLeaf)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_BotBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_PlayerBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pbx_LotusLeaf2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_Clock)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_PlayerMandarin1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_PlayerMandarin2)).EndInit();
@@ -1105,7 +1101,6 @@ namespace GUI
         private System.Windows.Forms.PictureBox Pbx_BotBox;
         private System.Windows.Forms.PictureBox Pbx_PlayerBox;
         private System.Windows.Forms.Label Lbl_ScoreCell6;
-        private System.Windows.Forms.PictureBox Pbx_LotusLeaf2;
         private System.Windows.Forms.PictureBox Pbx_Clock;
         private System.Windows.Forms.Label Lbl_Clock;
         private System.Windows.Forms.Panel Pnl_BotBox;

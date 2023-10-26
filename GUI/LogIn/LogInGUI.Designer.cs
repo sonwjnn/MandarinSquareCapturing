@@ -146,8 +146,8 @@ namespace GUI
             this.Btn_LogIn.UseVisualStyleBackColor = false;
             this.Btn_LogIn.MouseClick += new System.Windows.Forms.MouseEventHandler(this.StartBtn_MouseClick);
             this.Btn_LogIn.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Btn_MouseDown);
-            this.Btn_LogIn.MouseLeave += new System.EventHandler(this.Btn_MouseLeave);
-            this.Btn_LogIn.MouseHover += new System.EventHandler(this.Btn_MouseHover);
+            //this.Btn_LogIn.MouseLeave += new System.EventHandler(this.Btn_MouseLeave);
+            //this.Btn_LogIn.MouseHover += new System.EventHandler(this.Btn_MouseHover);
             this.Btn_LogIn.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Btn_MouseUp);
             // 
             // Pbx_Login

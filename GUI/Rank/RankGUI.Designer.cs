@@ -36,7 +36,6 @@ namespace GUI
             this.Lbl_NameR1 = new System.Windows.Forms.Label();
             this.Lbl_ScoreR1 = new System.Windows.Forms.Label();
             this.Pbx_BgR1 = new System.Windows.Forms.PictureBox();
-            this.Lbl_Title = new System.Windows.Forms.Label();
             this.Pnl_R2 = new System.Windows.Forms.Panel();
             this.Lbl_ScoreR2 = new System.Windows.Forms.Label();
             this.Lbl_NameR2 = new System.Windows.Forms.Label();
@@ -47,7 +46,6 @@ namespace GUI
             this.Pbx_BgR3 = new System.Windows.Forms.PictureBox();
             this.Btn_Home = new System.Windows.Forms.Button();
             this.Pbx_Home = new System.Windows.Forms.PictureBox();
-            this.Pbx_TitleRank = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_R1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_R2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_R3)).BeginInit();
@@ -58,7 +56,6 @@ namespace GUI
             this.Pnl_R3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_BgR3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_Home)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pbx_TitleRank)).BeginInit();
             this.SuspendLayout();
             // 
             // Pbx_R1
@@ -116,7 +113,7 @@ namespace GUI
             // Lbl_ScoreR1
             // 
             this.Lbl_ScoreR1.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_ScoreR1.Font = new System.Drawing.Font("Snap ITC", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreR1.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_ScoreR1.ForeColor = System.Drawing.Color.Red;
             this.Lbl_ScoreR1.Location = new System.Drawing.Point(39, 113);
             this.Lbl_ScoreR1.Name = "Lbl_ScoreR1";
@@ -135,18 +132,6 @@ namespace GUI
             this.Pbx_BgR1.TabIndex = 7;
             this.Pbx_BgR1.TabStop = false;
             // 
-            // Lbl_Title
-            // 
-            this.Lbl_Title.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_Title.Font = new System.Drawing.Font("Consolas", 22.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.Lbl_Title.Location = new System.Drawing.Point(69, 428);
-            this.Lbl_Title.MaximumSize = new System.Drawing.Size(150, 150);
-            this.Lbl_Title.Name = "Lbl_Title";
-            this.Lbl_Title.Size = new System.Drawing.Size(111, 125);
-            this.Lbl_Title.TabIndex = 4;
-            this.Lbl_Title.Text = "Bảng xếp hạng";
-            this.Lbl_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // Pnl_R2
             // 
             this.Pnl_R2.BackColor = System.Drawing.Color.Transparent;
@@ -162,7 +147,7 @@ namespace GUI
             // Lbl_ScoreR2
             // 
             this.Lbl_ScoreR2.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_ScoreR2.Font = new System.Drawing.Font("Snap ITC", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreR2.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_ScoreR2.ForeColor = System.Drawing.Color.Red;
             this.Lbl_ScoreR2.Location = new System.Drawing.Point(67, 98);
             this.Lbl_ScoreR2.Name = "Lbl_ScoreR2";
@@ -217,7 +202,7 @@ namespace GUI
             // Lbl_ScoreR3
             // 
             this.Lbl_ScoreR3.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_ScoreR3.Font = new System.Drawing.Font("Snap ITC", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ScoreR3.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_ScoreR3.ForeColor = System.Drawing.Color.Red;
             this.Lbl_ScoreR3.Location = new System.Drawing.Point(53, 95);
             this.Lbl_ScoreR3.Name = "Lbl_ScoreR3";
@@ -246,38 +231,26 @@ namespace GUI
             this.Btn_Home.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Btn_Home.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_Home.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Home.ForeColor = System.Drawing.Color.DarkCyan;
-            this.Btn_Home.Location = new System.Drawing.Point(1033, 465);
+            this.Btn_Home.ForeColor = System.Drawing.Color.Black;
+            this.Btn_Home.Location = new System.Drawing.Point(779, 543);
             this.Btn_Home.Name = "Btn_Home";
-            this.Btn_Home.Size = new System.Drawing.Size(149, 61);
+            this.Btn_Home.Size = new System.Drawing.Size(191, 176);
             this.Btn_Home.TabIndex = 6;
             this.Btn_Home.Text = "Quay về";
             this.Btn_Home.UseVisualStyleBackColor = false;
             this.Btn_Home.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Btn_Home_MouseClick);
             this.Btn_Home.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Btn_Home_MouseDown);
-            this.Btn_Home.MouseLeave += new System.EventHandler(this.Btn_Home_MouseLeave);
-            this.Btn_Home.MouseHover += new System.EventHandler(this.Btn_Home_MouseHover);
             this.Btn_Home.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Btn_Home_MouseUp);
             // 
             // Pbx_Home
             // 
             this.Pbx_Home.BackColor = System.Drawing.Color.Transparent;
-            this.Pbx_Home.Location = new System.Drawing.Point(1015, 440);
+            this.Pbx_Home.Location = new System.Drawing.Point(779, 380);
             this.Pbx_Home.Name = "Pbx_Home";
-            this.Pbx_Home.Size = new System.Drawing.Size(191, 270);
+            this.Pbx_Home.Size = new System.Drawing.Size(191, 339);
             this.Pbx_Home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pbx_Home.TabIndex = 7;
             this.Pbx_Home.TabStop = false;
-            // 
-            // Pbx_TitleRank
-            // 
-            this.Pbx_TitleRank.BackColor = System.Drawing.Color.Transparent;
-            this.Pbx_TitleRank.Location = new System.Drawing.Point(19, 394);
-            this.Pbx_TitleRank.Name = "Pbx_TitleRank";
-            this.Pbx_TitleRank.Size = new System.Drawing.Size(215, 306);
-            this.Pbx_TitleRank.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Pbx_TitleRank.TabIndex = 8;
-            this.Pbx_TitleRank.TabStop = false;
             // 
             // RankGUI
             // 
@@ -285,8 +258,6 @@ namespace GUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1240, 774);
-            this.Controls.Add(this.Lbl_Title);
-            this.Controls.Add(this.Pbx_TitleRank);
             this.Controls.Add(this.Pbx_R3);
             this.Controls.Add(this.Pbx_R2);
             this.Controls.Add(this.Btn_Home);
@@ -312,7 +283,6 @@ namespace GUI
             this.Pnl_R3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_BgR3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_Home)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pbx_TitleRank)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -324,7 +294,6 @@ namespace GUI
         private System.Windows.Forms.PictureBox Pbx_R2;
         private System.Windows.Forms.PictureBox Pbx_R3;
         private System.Windows.Forms.Panel Pnl_R1;
-        private System.Windows.Forms.Label Lbl_Title;
         private System.Windows.Forms.Panel Pnl_R2;
         private System.Windows.Forms.Panel Pnl_R3;
         private System.Windows.Forms.Label Lbl_ScoreR1;
@@ -338,6 +307,5 @@ namespace GUI
         private System.Windows.Forms.PictureBox Pbx_BgR2;
         private System.Windows.Forms.PictureBox Pbx_BgR3;
         private System.Windows.Forms.PictureBox Pbx_Home;
-        private System.Windows.Forms.PictureBox Pbx_TitleRank;
     }
 }

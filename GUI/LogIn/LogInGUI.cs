@@ -29,7 +29,7 @@ namespace GUI
         {
             loadImages();
             DoubleBuffered = true;
-            //Cursor = Ultilities.ControlUltils.changeCursorUp();
+            Cursor = Ultilities.ControlUltils.changeCursorUp();
             Btn_LogIn.FlatAppearance.BorderColor = Color.FromArgb(0, 0, 0, 0);
             Btn_Regist.FlatAppearance.BorderColor = Color.FromArgb(0, 0, 0, 0);
             Btn_Exit.FlatAppearance.BorderColor = Color.FromArgb(0, 0, 0, 0);

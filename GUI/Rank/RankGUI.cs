@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using BLL;
+﻿using BLL;
 using DTO;
 using GUI.MessageBoxes;
 using GUI.Ultils;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Windows.Forms;
 namespace GUI
 {
     //show rank of score of players 
@@ -44,7 +39,7 @@ namespace GUI
                 new Point((Pbx_BgR2.Width - Lbl_NameR2.Width) / 2, (Pbx_BgR2.Height - Lbl_NameR2.Height) / 2));
             Ultilities.ControlUltils.changeParent(Lbl_NameR3, Pbx_BgR3,
                 new Point((Pbx_BgR3.Width - Lbl_NameR3.Width) / 2, (Pbx_BgR3.Height - Lbl_NameR3.Height) / 2));
-            Ultilities.ControlUltils.changeParent(Lbl_Title, Pbx_TitleRank, new Point(48, 32));
+            //Ultilities.ControlUltils.changeParent(Lbl_Title, Pbx_TitleRank, new Point(48, 32));
             Ultilities.ControlUltils.changeParent(Btn_Home, Pbx_Home, new Point(10, 22));
 
             characterDTOs =
@@ -74,8 +69,8 @@ namespace GUI
             Pbx_BgR2.Image = Ultilities.ControlUltils.getImageFromFile(@"Rank\rank.png");
             Pbx_BgR3.Image = Ultilities.ControlUltils.getImageFromFile(@"Rank\rank.png");
             BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Rank\background.jpg");
-            Pbx_Home.Image = Ultilities.ControlUltils.getImageFromFile(@"Shared\back.png");
-            Pbx_TitleRank.Image = Ultilities.ControlUltils.getImageFromFile(@"Rank\banner.png");
+            Pbx_Home.Image = Ultilities.ControlUltils.getImageFromFile(@"Rank\back.png");
+            //Pbx_TitleRank.Image = Ultilities.ControlUltils.getImageFromFile(@"Rank\banner.png");
         }
 
         // change background color of the button when mouse hover

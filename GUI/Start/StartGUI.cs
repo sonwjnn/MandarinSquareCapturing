@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using GUI.MessageBoxes;
 using GUI.Ultils;
-using GUI.MessageBoxes;
 using GUI.Ultils.Enum;
+using System;
+using System.Drawing;
+using System.Windows.Forms;
 namespace GUI
 {
     //start menu 
@@ -52,34 +46,36 @@ namespace GUI
             Ultilities.ControlUltils.changeParent(Btn_Start, Pbx_Start,
                 new Point((Pbx_Start.Width - Btn_Start.Width) / 2, 53));
             Ultilities.ControlUltils.changeParent(Btn_Rank, Pbx_Rank,
-                new Point((Pbx_Rank.Width - Btn_Rank.Width) / 2 , 60));
+                new Point((Pbx_Rank.Width - Btn_Rank.Width) / 2, 60));
             Ultilities.ControlUltils.changeParent(Btn_Hint, Pbx_Hint,
                 new Point((Pbx_Hint.Width - Btn_Hint.Width) / 2, 30));
-            Ultilities.ControlUltils.changeParent(Btn_Exit, Pbx_Exit,
-                new Point(35, 20));
+            //Ultilities.ControlUltils.changeParent(Btn_Exit, Pbx_Exit,
+            //new Point(35, 20));
 
-            Pbx_RightBird.Location = new Point(-Lbl_Title.Width - Pbx_RightBird.Width, Pbx_RightBird.Location.Y);
-            Pbx_LeftBird.Location = new Point(Width + Lbl_Title.Width, Pbx_LeftBird.Location.Y);
-            Lbl_Title.Location = new Point(-Lbl_Title.Width, Lbl_Title.Location.Y);
+            //Pbx_RightBird.Location = new Point(-Lbl_Title.Width - Pbx_RightBird.Width, Pbx_RightBird.Location.Y);
+            Pbx_RightBird.Location = new Point(Pbx_RightBird.Width, Pbx_RightBird.Location.Y);
+            //Pbx_LeftBird.Location = new Point(Width + Lbl_Title.Width, Pbx_LeftBird.Location.Y);
+            Pbx_LeftBird.Location = new Point(Width, Pbx_LeftBird.Location.Y);
+            //Lbl_Title.Location = new Point(-Lbl_Title.Width, Lbl_Title.Location.Y);
 
             St_Setting.Pnl_Container.Location = new Point(Width - Btn_Setting.Width - 10, Height - Pnl_Setting.Height - 15);
             St_Setting.Step = 5;
             St_Setting.OffSetX = St_Setting.Pnl_Container.Width - Btn_Setting.Width - 20;
 
-            Program.runAnimation(AnimationState.ZOOM_IN, this);
+            //Program.runAnimation(AnimationState.ZOOM_IN, this);
 
         }
         private void loadImages()
         {
-            Pbx_Start.Image = Ultilities.ControlUltils.getImageFromFile(@"Start\wood.png");
-            Pbx_Rank.Image = Ultilities.ControlUltils.getImageFromFile(@"Start\wood.png");
-            Pbx_Hint.Image = Ultilities.ControlUltils.getImageFromFile(@"Start\wood.png");
-            Pbx_Exit.Image = Ultilities.ControlUltils.getImageFromFile(@"Shared\back.png");
-            Pbx_Char2.Image = Ultilities.ControlUltils.getImageFromFile(@"Characters\6.png");
-            Pbx_Char1.Image = Ultilities.ControlUltils.getImageFromFile(@"Characters\7.png");
-            Pbx_Char3.Image = Ultilities.ControlUltils.getImageFromFile(@"Characters\8.png");
-            Pbx_RightBird.Image = Ultilities.ControlUltils.getImageFromFile(@"Start\rightBird.gif");
-            Pbx_LeftBird.Image = Ultilities.ControlUltils.getImageFromFile(@"Start\leftBird.gif");
+            Pbx_Start.Image = Ultilities.ControlUltils.getImageFromFile(@"Start\3.png");
+            Pbx_Rank.Image = Ultilities.ControlUltils.getImageFromFile(@"Start\3.png");
+            Pbx_Hint.Image = Ultilities.ControlUltils.getImageFromFile(@"Start\2.png");
+            //Pbx_Exit.Image = Ultilities.ControlUltils.getImageFromFile(@"Start\1.png");
+            //Pbx_Char2.Image = Ultilities.ControlUltils.getImageFromFile(@"Characters\6.png");
+            //Pbx_Char1.Image = Ultilities.ControlUltils.getImageFromFile(@"Characters\7.png");
+            //Pbx_Char3.Image = Ultilities.ControlUltils.getImageFromFile(@"Characters\8.png");
+            //Pbx_RightBird.Image = Ultilities.ControlUltils.getImageFromFile(@"Start\rightBird.gif");
+            //Pbx_LeftBird.Image = Ultilities.ControlUltils.getImageFromFile(@"Start\leftBird.gif");
             BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Start\background.jpg");
             Btn_Account.BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Start\info.png");
             Btn_Volume.BackgroundImage = Ultilities.ControlUltils.getImageFromFile(@"Start\music.png");
@@ -142,36 +138,39 @@ namespace GUI
 
         }
         //efect of the title
-        private void Timer_StartGUI_Tick(object sender, EventArgs e)
-        {
-            if (!dirTitle && Pbx_RightBird.Location.X > Width)
-            {
-                Lbl_Title.Location = new Point(Width, Lbl_Title.Location.Y);
-                Pbx_RightBird.Location =
-                    new Point(-Lbl_Title.Width - Pbx_RightBird.Width, Pbx_RightBird.Location.Y);
-                dirTitle = true;
-                return;
-            }
-            else if (dirTitle && Pbx_LeftBird.Location.X + Pbx_RightBird.Width <= 0)
-            {
-                Lbl_Title.Location = new Point(-Lbl_Title.Width, Lbl_Title.Location.Y);
-                Pbx_LeftBird.Location = new Point(Width + Lbl_Title.Width, Pbx_LeftBird.Location.Y);
-                dirTitle = false;
-                return;
-            }
+        //private void Timer_StartGUI_Tick(object sender, EventArgs e)
+        //{
+        //    if (!dirTitle && Pbx_RightBird.Location.X > Width)
+        //    {
+        //        //Lbl_Title.Location = new Point(Width, Lbl_Title.Location.Y);
+        //        Pbx_RightBird.Location =
+        //            new Point(Pbx_RightBird.Width, Pbx_RightBird.Location.Y);
+        //        //Pbx_RightBird.Location =
+        //        //new Point(-Lbl_Title.Width - Pbx_RightBird.Width, Pbx_RightBird.Location.Y);
+        //        dirTitle = true;
+        //        return;
+        //    }
+        //    else if (dirTitle && Pbx_LeftBird.Location.X + Pbx_RightBird.Width <= 0)
+        //    {
+        //        //Lbl_Title.Location = new Point(-Lbl_Title.Width, Lbl_Title.Location.Y);
+        //        //Pbx_LeftBird.Location = new Point(Width + Lbl_Title.Width, Pbx_LeftBird.Location.Y);
+        //        Pbx_LeftBird.Location = new Point(Width, Pbx_LeftBird.Location.Y);
+        //        dirTitle = false;
+        //        return;
+        //    }
 
-            if (!dirTitle)
-            {
-                Lbl_Title.Location = new Point(Lbl_Title.Location.X + 3, Lbl_Title.Location.Y);
-                Pbx_RightBird.Location = new Point(Pbx_RightBird.Location.X + 3, Pbx_RightBird.Location.Y);
-            }
-            else
-            {
-                Lbl_Title.Location = new Point(Lbl_Title.Location.X - 3, Lbl_Title.Location.Y);
-                Pbx_LeftBird.Location = new Point(Pbx_LeftBird.Location.X - 3, Pbx_LeftBird.Location.Y);
-            }
+        //    if (!dirTitle)
+        //    {
+        //        //Lbl_Title.Location = new Point(Lbl_Title.Location.X + 3, Lbl_Title.Location.Y);
+        //        Pbx_RightBird.Location = new Point(Pbx_RightBird.Location.X + 3, Pbx_RightBird.Location.Y);
+        //    }
+        //    else
+        //    {
+        //        //Lbl_Title.Location = new Point(Lbl_Title.Location.X - 3, Lbl_Title.Location.Y);
+        //        Pbx_LeftBird.Location = new Point(Pbx_LeftBird.Location.X - 3, Pbx_LeftBird.Location.Y);
+        //    }
 
-        }
+        //}
 
         private void Btn_MouseDown(object sender, MouseEventArgs e) =>
             Cursor = Ultilities.ControlUltils.changeCursorDown();

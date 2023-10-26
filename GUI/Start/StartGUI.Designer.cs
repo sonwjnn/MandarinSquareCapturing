@@ -34,11 +34,9 @@ namespace GUI
             this.Pbx_Char2 = new System.Windows.Forms.PictureBox();
             this.Pbx_Rank = new System.Windows.Forms.PictureBox();
             this.Pbx_Hint = new System.Windows.Forms.PictureBox();
-            this.Pbx_Exit = new System.Windows.Forms.PictureBox();
             this.Pbx_Char3 = new System.Windows.Forms.PictureBox();
             this.Pnl_Title = new System.Windows.Forms.Panel();
             this.Pbx_LeftBird = new System.Windows.Forms.PictureBox();
-            this.Lbl_Title = new System.Windows.Forms.Label();
             this.Pbx_RightBird = new System.Windows.Forms.PictureBox();
             this.Timer_StartGUI = new System.Windows.Forms.Timer(this.components);
             this.Btn_Start = new System.Windows.Forms.Button();
@@ -54,7 +52,6 @@ namespace GUI
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_Char2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_Rank)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_Hint)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pbx_Exit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_Char3)).BeginInit();
             this.Pnl_Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_LeftBird)).BeginInit();
@@ -67,9 +64,9 @@ namespace GUI
             // 
             this.Pbx_Start.BackColor = System.Drawing.Color.Transparent;
             this.Pbx_Start.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Pbx_Start.Location = new System.Drawing.Point(33, 419);
+            this.Pbx_Start.Location = new System.Drawing.Point(8, 367);
             this.Pbx_Start.Name = "Pbx_Start";
-            this.Pbx_Start.Size = new System.Drawing.Size(188, 254);
+            this.Pbx_Start.Size = new System.Drawing.Size(188, 216);
             this.Pbx_Start.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pbx_Start.TabIndex = 4;
             this.Pbx_Start.TabStop = false;
@@ -78,7 +75,7 @@ namespace GUI
             // 
             this.Pbx_Char2.BackColor = System.Drawing.Color.Transparent;
             this.Pbx_Char2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Pbx_Char2.Location = new System.Drawing.Point(243, 494);
+            this.Pbx_Char2.Location = new System.Drawing.Point(0, 139);
             this.Pbx_Char2.Name = "Pbx_Char2";
             this.Pbx_Char2.Size = new System.Drawing.Size(196, 245);
             this.Pbx_Char2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -89,9 +86,9 @@ namespace GUI
             // 
             this.Pbx_Rank.BackColor = System.Drawing.Color.Transparent;
             this.Pbx_Rank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Pbx_Rank.Location = new System.Drawing.Point(445, 326);
+            this.Pbx_Rank.Location = new System.Drawing.Point(421, 408);
             this.Pbx_Rank.Name = "Pbx_Rank";
-            this.Pbx_Rank.Size = new System.Drawing.Size(207, 275);
+            this.Pbx_Rank.Size = new System.Drawing.Size(207, 230);
             this.Pbx_Rank.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pbx_Rank.TabIndex = 14;
             this.Pbx_Rank.TabStop = false;
@@ -100,23 +97,12 @@ namespace GUI
             // 
             this.Pbx_Hint.BackColor = System.Drawing.Color.Transparent;
             this.Pbx_Hint.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Pbx_Hint.Location = new System.Drawing.Point(720, 494);
+            this.Pbx_Hint.Location = new System.Drawing.Point(643, 291);
             this.Pbx_Hint.Name = "Pbx_Hint";
             this.Pbx_Hint.Size = new System.Drawing.Size(193, 254);
             this.Pbx_Hint.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pbx_Hint.TabIndex = 15;
             this.Pbx_Hint.TabStop = false;
-            // 
-            // Pbx_Exit
-            // 
-            this.Pbx_Exit.BackColor = System.Drawing.Color.Transparent;
-            this.Pbx_Exit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Pbx_Exit.Location = new System.Drawing.Point(1037, 447);
-            this.Pbx_Exit.Name = "Pbx_Exit";
-            this.Pbx_Exit.Size = new System.Drawing.Size(181, 226);
-            this.Pbx_Exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Pbx_Exit.TabIndex = 16;
-            this.Pbx_Exit.TabStop = false;
             // 
             // Pbx_Char3
             // 
@@ -133,7 +119,6 @@ namespace GUI
             // 
             this.Pnl_Title.BackColor = System.Drawing.Color.Transparent;
             this.Pnl_Title.Controls.Add(this.Pbx_LeftBird);
-            this.Pnl_Title.Controls.Add(this.Lbl_Title);
             this.Pnl_Title.Controls.Add(this.Pbx_RightBird);
             this.Pnl_Title.Location = new System.Drawing.Point(0, -4);
             this.Pnl_Title.Name = "Pnl_Title";
@@ -151,18 +136,6 @@ namespace GUI
             this.Pbx_LeftBird.TabIndex = 5;
             this.Pbx_LeftBird.TabStop = false;
             // 
-            // Lbl_Title
-            // 
-            this.Lbl_Title.AutoSize = true;
-            this.Lbl_Title.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_Title.Font = new System.Drawing.Font("Matura MT Script Capitals", 30F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Title.ForeColor = System.Drawing.Color.Green;
-            this.Lbl_Title.Location = new System.Drawing.Point(376, 10);
-            this.Lbl_Title.Name = "Lbl_Title";
-            this.Lbl_Title.Size = new System.Drawing.Size(251, 53);
-            this.Lbl_Title.TabIndex = 4;
-            this.Lbl_Title.Text = "Ô Ăn Quan";
-            // 
             // Pbx_RightBird
             // 
             this.Pbx_RightBird.BackColor = System.Drawing.Color.Transparent;
@@ -177,7 +150,6 @@ namespace GUI
             // 
             this.Timer_StartGUI.Enabled = true;
             this.Timer_StartGUI.Interval = 50;
-            this.Timer_StartGUI.Tick += new System.EventHandler(this.Timer_StartGUI_Tick);
             // 
             // Btn_Start
             // 
@@ -186,10 +158,10 @@ namespace GUI
             this.Btn_Start.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Btn_Start.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Btn_Start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_Start.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.Btn_Start.Location = new System.Drawing.Point(61, 457);
+            this.Btn_Start.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Start.Location = new System.Drawing.Point(19, 496);
             this.Btn_Start.Name = "Btn_Start";
-            this.Btn_Start.Size = new System.Drawing.Size(134, 58);
+            this.Btn_Start.Size = new System.Drawing.Size(160, 58);
             this.Btn_Start.TabIndex = 24;
             this.Btn_Start.Text = "Bắt đầu";
             this.Btn_Start.UseVisualStyleBackColor = false;
@@ -206,10 +178,10 @@ namespace GUI
             this.Btn_Rank.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Btn_Rank.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Btn_Rank.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_Rank.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.Btn_Rank.Location = new System.Drawing.Point(472, 370);
+            this.Btn_Rank.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Rank.Location = new System.Drawing.Point(436, 527);
             this.Btn_Rank.Name = "Btn_Rank";
-            this.Btn_Rank.Size = new System.Drawing.Size(156, 56);
+            this.Btn_Rank.Size = new System.Drawing.Size(170, 56);
             this.Btn_Rank.TabIndex = 25;
             this.Btn_Rank.Text = "Xếp hạng";
             this.Btn_Rank.UseVisualStyleBackColor = false;
@@ -226,10 +198,10 @@ namespace GUI
             this.Btn_Hint.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Btn_Hint.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Btn_Hint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_Hint.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.Btn_Hint.Location = new System.Drawing.Point(754, 522);
+            this.Btn_Hint.Font = new System.Drawing.Font("Comic Sans MS", 18.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Hint.Location = new System.Drawing.Point(657, 424);
             this.Btn_Hint.Name = "Btn_Hint";
-            this.Btn_Hint.Size = new System.Drawing.Size(130, 108);
+            this.Btn_Hint.Size = new System.Drawing.Size(159, 108);
             this.Btn_Hint.TabIndex = 26;
             this.Btn_Hint.Text = "Trợ giúp";
             this.Btn_Hint.UseVisualStyleBackColor = false;
@@ -247,8 +219,8 @@ namespace GUI
             this.Btn_Exit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Btn_Exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Btn_Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.Btn_Exit.Location = new System.Drawing.Point(1069, 469);
+            this.Btn_Exit.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Exit.Location = new System.Drawing.Point(922, 518);
             this.Btn_Exit.Name = "Btn_Exit";
             this.Btn_Exit.Size = new System.Drawing.Size(96, 45);
             this.Btn_Exit.TabIndex = 27;
@@ -346,7 +318,6 @@ namespace GUI
             this.Controls.Add(this.Btn_Rank);
             this.Controls.Add(this.Btn_Start);
             this.Controls.Add(this.Pnl_Title);
-            this.Controls.Add(this.Pbx_Exit);
             this.Controls.Add(this.Pbx_Hint);
             this.Controls.Add(this.Pbx_Rank);
             this.Controls.Add(this.Pbx_Start);
@@ -363,10 +334,8 @@ namespace GUI
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_Char2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_Rank)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_Hint)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pbx_Exit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_Char3)).EndInit();
             this.Pnl_Title.ResumeLayout(false);
-            this.Pnl_Title.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_LeftBird)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_RightBird)).EndInit();
             this.Pnl_Setting.ResumeLayout(false);
@@ -381,11 +350,9 @@ namespace GUI
         private System.Windows.Forms.PictureBox Pbx_Char2;
         private System.Windows.Forms.PictureBox Pbx_Rank;
         private System.Windows.Forms.PictureBox Pbx_Hint;
-        private System.Windows.Forms.PictureBox Pbx_Exit;
         private System.Windows.Forms.PictureBox Pbx_Char3;
         private System.Windows.Forms.Panel Pnl_Title;
         private System.Windows.Forms.PictureBox Pbx_RightBird;
-        private System.Windows.Forms.Label Lbl_Title;
         private System.Windows.Forms.PictureBox Pbx_LeftBird;
         private System.Windows.Forms.Timer Timer_StartGUI;
         private System.Windows.Forms.Button Btn_Start;

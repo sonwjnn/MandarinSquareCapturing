@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GUI",
+    "\\GUI\\Result",
+    "\\GUI\\Start"
   ],
   "SelectedNode": "\\Game_OAQ.sln",
   "PreviewInSolutionExplorer": false

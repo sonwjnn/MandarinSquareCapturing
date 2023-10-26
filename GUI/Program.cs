@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Threading;
-using BLL;
+﻿using BLL;
 using DTO;
-using GUI.Ultils;
-using GUI.Ultils.FormAni;
 using GUI.MessageBoxes;
+using GUI.Ultils;
 using GUI.Ultils.Enum;
+using GUI.Ultils.FormAni;
+using System;
+using System.Collections.Generic;
+using System.Windows.Forms;
 
 namespace GUI
 {
@@ -20,8 +17,8 @@ namespace GUI
         public static Dictionary<AnimationState, FormAnimation> Dic_Animations;
         public static Dictionary<string, object> Dic_Bundles;
         public static Dictionary<SoundKind, Ultilities.SoundUltils> Dic_Sounds;
-        public static int MusicVolume = 50;
-        public static int SoundVolume = 50;
+        public static int MusicVolume = 0;
+        public static int SoundVolume = 0;
         public static void changeForm(FormKind formKind, Form form, string titleMessage = "", string contentMessage = "")
         {
             Dic_Forms.Remove(formKind);
