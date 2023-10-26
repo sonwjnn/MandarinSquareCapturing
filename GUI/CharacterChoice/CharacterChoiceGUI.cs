@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.IO;
+﻿using GUI.MessageBoxes;
 using GUI.Ultils;
-using GUI.MessageBoxes;
 using GUI.Ultils.Enum;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Windows.Forms;
 
 namespace GUI
 {
@@ -67,7 +63,7 @@ namespace GUI
             Timer_Clock.Enabled = true;
             Pbx_FullAva.Location = new Point(-Pbx_FullAva.Width, Pbx_FullAva.Location.Y);
 
-            Program.runAnimation(AnimationState.SINK, this);
+            //Program.runAnimation(AnimationState.SINK, this);
         }
 
         private void loadImages()

@@ -174,7 +174,7 @@ namespace GUI
             Pbx_RightArrow.MouseDown += Control_Choice_MouseDown;
             Pbx_RightArrow.MouseUp += Control_Choice_MouseUp;
 
-            Program.runAnimation(AnimationState.SINK, this);
+            //Program.runAnimation(AnimationState.SINK, this);
         }
 
         private void loadImages()

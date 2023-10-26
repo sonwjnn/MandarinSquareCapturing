@@ -58,7 +58,7 @@ namespace GUI
                 Lbl_ScoreR3.Text = characterDTOs[2].score.ToString();
             }
 
-            Program.runAnimation(AnimationState.SINK, this);
+            //Program.runAnimation(AnimationState.SINK, this);
         }
         private void loadImages()
         {

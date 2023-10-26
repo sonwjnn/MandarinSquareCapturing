@@ -37,8 +37,6 @@ namespace GUI
             this.Timer_Avt = new System.Windows.Forms.Timer(this.components);
             this.Lbl_Player = new System.Windows.Forms.Label();
             this.Lbl_Bot = new System.Windows.Forms.Label();
-            this.Pbx_PlayerBg = new System.Windows.Forms.PictureBox();
-            this.Pbx_BotBg = new System.Windows.Forms.PictureBox();
             this.Pnl_Loading = new System.Windows.Forms.Panel();
             this.Lbl_Loading = new System.Windows.Forms.Label();
             this.Timer_Loading = new System.Windows.Forms.Timer(this.components);
@@ -48,8 +46,6 @@ namespace GUI
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_Player)).BeginInit();
             this.Pnl_Bot.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_Bot)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pbx_PlayerBg)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pbx_BotBg)).BeginInit();
             this.Pnl_Loading.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -121,26 +117,6 @@ namespace GUI
             this.Lbl_Bot.Text = "Máy";
             this.Lbl_Bot.UseCompatibleTextRendering = true;
             // 
-            // Pbx_PlayerBg
-            // 
-            this.Pbx_PlayerBg.BackColor = System.Drawing.Color.Transparent;
-            this.Pbx_PlayerBg.Location = new System.Drawing.Point(524, 43);
-            this.Pbx_PlayerBg.Name = "Pbx_PlayerBg";
-            this.Pbx_PlayerBg.Size = new System.Drawing.Size(167, 52);
-            this.Pbx_PlayerBg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Pbx_PlayerBg.TabIndex = 4;
-            this.Pbx_PlayerBg.TabStop = false;
-            // 
-            // Pbx_BotBg
-            // 
-            this.Pbx_BotBg.BackColor = System.Drawing.Color.Transparent;
-            this.Pbx_BotBg.Location = new System.Drawing.Point(574, 665);
-            this.Pbx_BotBg.Name = "Pbx_BotBg";
-            this.Pbx_BotBg.Size = new System.Drawing.Size(167, 52);
-            this.Pbx_BotBg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Pbx_BotBg.TabIndex = 5;
-            this.Pbx_BotBg.TabStop = false;
-            // 
             // Pnl_Loading
             // 
             this.Pnl_Loading.Controls.Add(this.Lbl_Loading);
@@ -165,6 +141,7 @@ namespace GUI
             this.Lbl_TitleLoading.AutoSize = true;
             this.Lbl_TitleLoading.BackColor = System.Drawing.Color.Transparent;
             this.Lbl_TitleLoading.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_TitleLoading.ForeColor = System.Drawing.Color.White;
             this.Lbl_TitleLoading.Location = new System.Drawing.Point(244, 738);
             this.Lbl_TitleLoading.Name = "Lbl_TitleLoading";
             this.Lbl_TitleLoading.Size = new System.Drawing.Size(90, 26);
@@ -176,6 +153,7 @@ namespace GUI
             this.Lbl_ResultLoading.AutoSize = true;
             this.Lbl_ResultLoading.BackColor = System.Drawing.Color.Transparent;
             this.Lbl_ResultLoading.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ResultLoading.ForeColor = System.Drawing.Color.White;
             this.Lbl_ResultLoading.Location = new System.Drawing.Point(957, 738);
             this.Lbl_ResultLoading.Name = "Lbl_ResultLoading";
             this.Lbl_ResultLoading.Size = new System.Drawing.Size(40, 26);
@@ -193,8 +171,6 @@ namespace GUI
             this.Controls.Add(this.Pnl_Loading);
             this.Controls.Add(this.Lbl_Bot);
             this.Controls.Add(this.Lbl_Player);
-            this.Controls.Add(this.Pbx_BotBg);
-            this.Controls.Add(this.Pbx_PlayerBg);
             this.Controls.Add(this.Pnl_Bot);
             this.Controls.Add(this.Pnl_Player);
             this.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -208,8 +184,6 @@ namespace GUI
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_Player)).EndInit();
             this.Pnl_Bot.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Pbx_Bot)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pbx_PlayerBg)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Pbx_BotBg)).EndInit();
             this.Pnl_Loading.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -225,8 +199,6 @@ namespace GUI
         private System.Windows.Forms.Timer Timer_Avt;
         private System.Windows.Forms.Label Lbl_Player;
         private System.Windows.Forms.Label Lbl_Bot;
-        private System.Windows.Forms.PictureBox Pbx_PlayerBg;
-        private System.Windows.Forms.PictureBox Pbx_BotBg;
         private System.Windows.Forms.Panel Pnl_Loading;
         private System.Windows.Forms.Label Lbl_Loading;
         private System.Windows.Forms.Timer Timer_Loading;

@@ -230,7 +230,7 @@ namespace GUI
             this.Btn_Home.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Btn_Home.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Btn_Home.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_Home.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Home.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Home.ForeColor = System.Drawing.Color.Black;
             this.Btn_Home.Location = new System.Drawing.Point(779, 543);
             this.Btn_Home.Name = "Btn_Home";

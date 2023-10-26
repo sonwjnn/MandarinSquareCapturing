@@ -31,7 +31,7 @@ namespace GUI
             Ultilities.ControlUltils.changeParent(Btn_Home, Pbx_Home, new Point(Btn_Home.Location.X, Btn_Home.Location.Y));
 
 
-            Program.runAnimation(AnimationState.SINK, this);
+            //Program.runAnimation(AnimationState.SINK, this);
         }
         private void loadImages()
         {

@@ -12,8 +12,12 @@ namespace GUI
     public partial class LogInGUI : Form
     {
         private bool flagEye = false;
-        public LogInGUI() =>
+        public LogInGUI()
+        {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+        }
+
         // use for smooth screen
         protected override CreateParams CreateParams
         {
@@ -46,7 +50,7 @@ namespace GUI
             Tbx_Username.PlaceHolder = StringManagement.UsernamePlaceHolder;
             Tbx_Password.PlaceHolder = StringManagement.PasswordPlaceHolder;
 
-            Program.runAnimation(AnimationState.FLOAT, this);
+            //Program.runAnimation(AnimationState.FLOAT, this);
 
             Tbx_Username.changePH_Leave();
             Tbx_Password.changePH_Leave();
